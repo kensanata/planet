@@ -1,0 +1,10 @@
+<opml version="2.0">
+  <body>
+    <outline title="OSR Blogs">
+      <outline author="Alex Schroeder" htmlUrl="https://alexschroeder.ch/wiki/Old_School" system="Old House Rules" theme="rules, articles" title="Alex Schroeder" xmlUrl="https://alexschroeder.ch/wiki/feed/full/Old_School"/>
+      <outline author="Keith Davies" htmlUrl="http://www.kjd-imc.org/" system="Fantasy AGE" theme="philosphy and theory of adventure and game design" title="In My Campaign" xmlUrl="http://www.kjd-imc.org/feed/"/>
+      <outline author="Ramanan" htmlUrl="http://save.vs.totalpartykill.ca/" system="OD&amp;D, LotFP, Warhammer 40K" theme="Reviews, Little Web Apps, 40K junk, Carcosa, etc" title="Save vs. Total Party Kill" xmlUrl="http://save.vs.totalpartykill.ca/rss.xml"/>
+      <outline author="Anne Hunter" htmlUrl="https://diyanddragons.blogspot.com" system="DCC, general OSR" theme="play reports, procedural generation, resource management, links, long quotes" title="DIY &amp; Dragons" xmlUrl="https://diyanddragons.blogspot.com/feeds/posts/default"/>
+    </outline>
+  </body>
+</opml>
