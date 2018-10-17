@@ -1,7 +1,7 @@
 <opml version="2.0">
   <body>
     <outline title="OSR Blogs">
-      <outline author="James A. Smith" htmlUrl="http://dreamsofmythicfantasy.blogspot.com" system="AD&amp;D 1e, S&amp;W, OSR generally" theme="Playing Dungeons &amp; Dragons During the Old School Renaissance" title="Dreams of Mythic Fantasy" xmlUrl="https://dreamsofmythicfantasy.blogspot.com/feeds/posts/default"/>
+      <outline author="James A. Smith" htmlUrl="https://dreamsofmythicfantasy.blogspot.com" system="AD&amp;D 1e, S&amp;W, OSR generally" theme="Playing Dungeons &amp; Dragons During the Old School Renaissance" title="Dreams of Mythic Fantasy" xmlUrl="https://dreamsofmythicfantasy.blogspot.com/feeds/posts/default"/>
       <outline author="Jeremy Friesen" htmlUrl="https://takeonrules.com" system="OSR, BW, Pbta, RPG" theme="Session reports, random tables, procedures, reviews" title="Take  on Rules" xmlUrl="https://takeonrules.com/feed/"/>
       <outline author="Kyrinn S. Eis" htmlUrl="https://thegrandtapestry.blogspot.com/" system="Urutsk: Worlds of Mystery" theme="Mostly topical regarding the setting and system, rare diversions" title="The Grand Tapestry" xmlUrl="https://thegrandtapestry.blogspot.com/feeds/posts/default"/>
       <outline author="Alex Schroeder" htmlUrl="https://alexschroeder.ch/wiki/Old_School" system="Old House Rules" theme="rules, articles" title="Alex Schroeder" xmlUrl="https://alexschroeder.ch/wiki/feed/full/Old_School"/>
@@ -10,9 +10,17 @@
       <outline author="Anne Hunter" htmlUrl="https://diyanddragons.blogspot.com" system="DCC, general OSR" theme="play reports, procedural generation, resource management, links, long quotes" title="DIY &amp; Dragons" xmlUrl="https://diyanddragons.blogspot.com/feeds/posts/default"/>
       <outline author="Brett Slocum" htmlUrl="https://joyfulsitting.blogspot.com/" system="OSR" theme="Tekumel" title="The Eye of Joyful Sitting Amongst Friends" xmlUrl="https://joyfulsitting.blogspot.com/feeds/posts/default"/>
       <outline author="Larry Hamilton" htmlUrl="https://followmeanddie.com/" system="AD&amp;D, Met. Alpha, Gamma World," theme="Old Shool focus. Interviews, reviews, tables, RPG ideas" title="Follow Me, And Die!" xmlUrl="https://followmeanddie.com/feed/"/>
-      <outline author="Guy Fullerton" htmlUrl="https://unvisiblecitadel.blogspot.com/" system="OSR" theme="News, interviews, sheets" title="Unvisible Citadel" xmlUrl="https://unvisiblecitadel.blogspot.com/feeds/posts/default"/>
-      <outline author="Dismaster FraNe" htmlUrl="http://dismastersden.blogspot.com" system="OSR, LotFP, Traveller, Risus and more" theme="OSR, gaming ideas, random tables, a few reviews, sometimes in Italian" title="Dismaster's Den of Unfinished Thoughts" xmlUrl="https://dismastersden.blogspot.com/feeds/posts/default"/>
-      <outline author="Eric Diaz" htmlUrl="http://methodsetmadness.blogspot.com/" system="OSR, B/X, 5e (also Dark Fantasy Basic)" theme="Mechanics, monsters, weapons and some reviews." title="Methods &amp; Madness" xmlUrl="http://methodsetmadness.blogspot.com/feeds/posts/default"/>
+      <outline author="Guy Fullerton" htmlUrl="https://unvisiblecitadel.blogspot.com/" system="AD&amp;D" theme="Variants, house rules, play" title="Unvisible Citadel" xmlUrl="https://unvisiblecitadel.blogspot.com/feeds/posts/default"/>
+      <outline author="Dismaster FraNe" htmlUrl="https://dismastersden.blogspot.com" system="OSR, LotFP, Traveller, Risus and more" theme="OSR, gaming ideas, random tables, a few reviews, sometimes in Italian" title="Dismaster's Den of Unfinished Thoughts" xmlUrl="https://dismastersden.blogspot.com/feeds/posts/default"/>
+      <outline author="Eric Diaz" htmlUrl="https://methodsetmadness.blogspot.com/" system="OSR, B/X, 5e (also Dark Fantasy Basic)" theme="Mechanics, monsters, weapons and some reviews." title="Methods &amp; Madness" xmlUrl="https://methodsetmadness.blogspot.com/feeds/posts/default"/>
+      <outline author="El Dado Inquieto" htmlUrl="https://eldadoinquieto.blogspot.com/" system="" theme="" title="El Dado Inquieto" xmlUrl="https://eldadoinquieto.blogspot.com/feeds/posts/default"/>
+      <outline author="Jürgen Mayer" htmlUrl="https://deadcyclops.blogspot.com/" system="" theme="" title="Dead Cyclops" xmlUrl="https://deadcyclops.blogspot.com/feeds/posts/default"/>
+      <outline author="Arturs Leitans" htmlUrl="https://lairofmegagorgon.blogspot.com/" system="" theme="" title="AL0 Lair of the Megagorgon" xmlUrl="https://lairofmegagorgon.blogspot.com/feeds/posts/default"/>
+      <outline author="Davide Pignedoli" htmlUrl="https://daimon-games.blogspot.com/" system="" theme="" title="Daimon Games" xmlUrl="https://daimon-games.blogspot.com/feeds/posts/default"/>
+      <outline author="Joel Priddy" htmlUrl="https://abominablefancy.blogspot.com/" system="OSR/DIY, rules-lite, PbP" theme="A well-dressed shoggoth, his pockets full of soggy comic strips" title="An Abominable Fancy" xmlUrl="https://abominablefancy.blogspot.com/feeds/posts/default"/>
+      <outline author="John Carlson" htmlUrl="http://www.dwarvenautomata.com" system="AD&amp;D, OSRIC" theme="Scripted random generation tools, play reports, campaign setting info" title="Dwarven Automata" xmlUrl="http://www.dwarvenautomata.com/feed/"/>
+      <outline author="Eric Nieudan" htmlUrl="https://goblinburg.blogspot.com/" system="" theme="" title="The Goblinburg Notebook" xmlUrl="https://goblinburg.blogspot.com/feeds/posts/default"/>
+      <outline author="grodog" htmlUrl="https://grodog.blogspot.com/" system="" theme="" title="From Kuroth's Quill - grodog's AD&amp;D blog " xmlUrl="https://grodog.blogspot.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>
