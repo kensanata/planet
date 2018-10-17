@@ -21,6 +21,9 @@
       <outline author="John Carlson" htmlUrl="http://www.dwarvenautomata.com" system="AD&amp;D, OSRIC" theme="Scripted random generation tools, play reports, campaign setting info" title="Dwarven Automata" xmlUrl="http://www.dwarvenautomata.com/feed/"/>
       <outline author="Eric Nieudan" htmlUrl="https://goblinburg.blogspot.com/" system="" theme="" title="The Goblinburg Notebook" xmlUrl="https://goblinburg.blogspot.com/feeds/posts/default"/>
       <outline author="grodog" htmlUrl="https://grodog.blogspot.com/" system="" theme="" title="From Kuroth's Quill - grodog's AD&amp;D blog " xmlUrl="https://grodog.blogspot.com/feeds/posts/default"/>
+      <outline author="John Bell" htmlUrl="https://retiredadventurer.blogspot.com/" system="OSR, Mythras, Assorted Others" theme="Procedures and techniques of play, worldbuilding, mechanics" title="The Retired Adventurer" xmlUrl="https://retiredadventurer.blogspot.com/feeds/posts/default"/>
+      <outline author="Luka Rejec" htmlUrl="https://wizardthieffighter.com" system="hacked 5E" theme="Psychedelic metal music, UVG, Witchburner, art" title="Wizard Thief Fighter" xmlUrl="https://www.wizardthieffighter.com/feed/"/>
+      <outline author="wizardshaw" htmlUrl="https://wizardshaw.blogspot.com/" system="D&amp;D 5E, S&amp;W" theme="theory, mysteries, house rules" title="Wizardshaw" xmlUrl="https://wizardshaw.blogspot.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>

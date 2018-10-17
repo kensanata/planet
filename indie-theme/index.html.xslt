@@ -41,7 +41,9 @@
         <xsl:text>&#10;</xsl:text>
         <div id="sidebar">
 
-	  <p class="small"><a href="/wiki/Planet/What%20is%20this%3f">What is this?</a></p>
+	  <p class="small">
+	    <a href="/wiki/Planet/What%20is%20this%3f">What is this?</a>
+	  </p>
 
           <xsl:text>&#10;&#10;</xsl:text>
           <h2>Subscriptions</h2>
