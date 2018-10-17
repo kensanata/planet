@@ -2,7 +2,7 @@
   <body>
     <outline title="Indie RPG Blogs">
       <outline title="Alex Schroeder" xmlUrl="https://alexschroeder.ch/wiki/feed/full/Indie"/>
-      <outline title="Space·Time Will Tell" xmlUrl="https://space-timewilltell.github.io/index.xml"/>
+      <outline title="Space·Time Will Tell" xmlUrl="https://space-timewilltell.github.io/post/index.xml"/>
     </outline>
   </body>
 </opml>
