@@ -17,7 +17,9 @@
       <xsl:text>&#10;&#10;</xsl:text>
       <head>
         <xsl:text disable-output-escaping='yes'>&lt;link rel="stylesheet" href="default.css" type="text/css"/&gt;</xsl:text>
-        <title><xsl:value-of select="atom:title"/></title>
+        <xsl:text disable-output-escaping='yes'>&lt;link rel="feed" href="atom.xml" type="application/rss+xml" title="atom:title"/&gt;</xsl:text>
+
+	      <title><xsl:value-of select="atom:title"/></title>
 	<xsl:text disable-output-escaping='yes'>&lt;meta name="robots" content="noindex,nofollow"&gt;</xsl:text>
         <xsl:text disable-output-escaping='yes'>&lt;meta name="generator" content="{atom:generator}"&gt;</xsl:text>
         <xsl:if test="atom:link[@rel='self']">
