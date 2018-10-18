@@ -47,7 +47,7 @@
 	  </p>
 
           <xsl:text>&#10;&#10;</xsl:text>
-          <h2>Subscriptions</h2>
+          <h2>Members</h2>
           <xsl:text>&#10;</xsl:text>
           <ul>
             <xsl:for-each select="planet:source">
