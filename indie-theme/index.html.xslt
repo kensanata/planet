@@ -15,17 +15,25 @@
 
       <!-- head -->
       <xsl:text>&#10;&#10;</xsl:text>
-      <head>
-        <xsl:text disable-output-escaping='yes'>&lt;link rel="stylesheet" href="default.css" type="text/css"/&gt;</xsl:text>
-        <title><xsl:value-of select="atom:title"/></title>
-	<xsl:text disable-output-escaping='yes'>&lt;meta name="robots" content="noindex,nofollow"&gt;</xsl:text>
-        <xsl:text disable-output-escaping='yes'>&lt;meta name="generator" content="{atom:generator}"&gt;</xsl:text>
+      <head><xsl:text>&#10;&#10;</xsl:text>
+        <xsl:text disable-output-escaping='yes'>&lt;link rel="stylesheet" href="default.css" type="text/css"/&gt;</xsl:text><xsl:text>&#10;</xsl:text>
+        <title><xsl:value-of select="atom:title"/></title><xsl:text>&#10;</xsl:text>
+	<!-- meta robots -->
+	<xsl:text disable-output-escaping='yes'>&lt;meta name="robots" content="noindex,nofollow"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
+	<!-- meta generator -->
+        <xsl:text disable-output-escaping='yes'>&lt;meta name="generator" content="</xsl:text>
+	<xsl:value-of select="atom:generator"/>
+	<xsl:text disable-output-escaping='yes'>"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
+	<!-- link to atom.xml -->
         <xsl:if test="atom:link[@rel='self']">
-          <xsl:text disable-output-escaping='yes'>&lt;link rel="alternate" href="{atom:link[@rel='self']/@href}"
-            title="{atom:title}" type="{atom:link[@rel='self']/@type}"&gt;</xsl:text>
+          <xsl:text disable-output-escaping='yes'>&lt;link rel="alternate" href="</xsl:text>
+          <xsl:value-of select="atom:link[@rel='self']/@href"/><xsl:text>" title="</xsl:text>
+	  <xsl:value-of select="atom:title"/><xsl:text>" type="</xsl:text>
+          <xsl:value-of select="atom:link[@rel='self']/@type"/><xsl:text disable-output-escaping='yes'>"&gt;</xsl:text>
+	  <xsl:text>&#10;</xsl:text>
         </xsl:if>
-        <xsl:text disable-output-escaping='yes'>&lt;link rel="shortcut icon" type="image/x-icon" href="images/venus.ico"&gt;</xsl:text>
-        <xsl:text disable-output-escaping='yes'>&lt;link rel="icon" type="image/x-icon"  href="images/venus.ico"&gt;</xsl:text>
+        <xsl:text disable-output-escaping='yes'>&lt;link rel="shortcut icon" type="image/x-icon" href="images/venus.ico"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
+        <xsl:text disable-output-escaping='yes'>&lt;link rel="icon" type="image/x-icon"  href="images/venus.ico"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <script type="text/javascript" src="personalize.js">
 	<!-- hack to prevent XHTML tag minimization -->
 	<xsl:text>&#x20;</xsl:text>
