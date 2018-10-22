@@ -1,12 +1,13 @@
 /*
  * Written by Stefano Mazzocchi <stefano at apache dot org>
+ * Adapted by Alex Schroeder <alex@gnu.org>
  */
 
 /* ----------------------------- Global Definitions -------------------- */
 
 body {
-	margin: 0px;
-	padding: 0px;
+	margin: 1em 2em;
+	padding: 0;
 	color: #222;
 	background-color: #fff;
 	quotes: "\201C" "\201E" "\2018" "\2019";
@@ -38,10 +39,7 @@ h1 {
 	letter-spacing: 0.25em;
 	padding: 10px;
 	margin: 0px 0px 0px 0px;
-	color: #FFF;
 	font-weight: normal;
-	background-color: #036;
-	border-bottom: 2px solid #bbb
 }
 
 /* ----------------------------- Sidebar --------------------------- */
@@ -54,20 +52,16 @@ h1 {
 	background-color: white;
 	padding: 0px 10px 20px 0px;
 	margin: 0px 0px 20px 20px;
-	border-left: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
 }
 
 #sidebar h2 {
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	font-size: .9em;
-	background-color: #BCD;
 	color: #222;
 	font-weight: bold;
 	padding: 3px 0px 2px 4px;
 	margin: 15px 0px 5px 10px;
-	border: 1px solid #ccc;
 }
 
 #sidebar p {
@@ -156,13 +150,9 @@ h1 {
 	text-transform: none;
 	font-size: 1em;
 	color: #222;
-	font-weight: bold;
 	text-align: right;
-	border-top: 1px solid #ccc;
-	background-color: #BCD;
-	border-bottom: 1px solid #ccc;
 	padding: 3px 15px 2px 5px;
-        max-width:43em;
+        max-width:50em;
 	margin: 0;
 }
 
@@ -187,13 +177,9 @@ h1 {
 .news .content {
 	margin: 5px 5px 5px 15px;
 	padding: 0px 1em 1em 1em;
-	border-left: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	border-right: 1px solid #ccc;
 	line-height: 1.5em;
 	font-size: 1em;
 	font-family: sans-serif;
-        max-width:40em;
 }
 
 .news .links {
@@ -256,26 +242,6 @@ h1 {
 
 .news code {
 	font-family: large;
-}
-
-.news .content :link,
-.news .content :visited {
-	text-decoration: none;
-	font-weight:bold;
-	color:#036;
-}
-.news .content p:hover a,
-.news .content dt:hover a,
-.news .content dd:hover a,
-.news .content li:hover a {
-        text-decoration: underline;
-}
- 
-.news :link:active,
-.news :visited:active,
-.news :link:hover,
-.news :visited:hover {
-	color: #FFCC66;
 }
 
 /* --------------------------- Accomodations ----------------------- */
