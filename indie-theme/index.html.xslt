@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
                 xmlns:atom="http://www.w3.org/2005/Atom"
                 xmlns:xhtml="http://www.w3.org/1999/xhtml"
@@ -43,15 +44,15 @@
       <xsl:text>&#10;&#10;</xsl:text>
       <body>
         <xsl:text>&#10;</xsl:text>
-	<p class="invisible"><a href="#body">Skip to content</a></p>
+				<p class="invisible"><a href="#body">Skip to content</a></p>
         <h1><xsl:value-of select="atom:title"/></h1>
 
         <xsl:text>&#10;</xsl:text>
         <div id="sidebar">
 
-	  <p class="small">
-	    <a href="/wiki/Planet/What%20is%20this%3f">What is this?</a>
-	  </p>
+					<p class="small">
+						<a href="/wiki/Planet/What%20is%20this%3f">What is this?</a>
+					</p>
 
           <xsl:text>&#10;&#10;</xsl:text>
           <h2>Members</h2>
@@ -120,14 +121,14 @@
             </dd>
             <dt>Export:</dt>
             <dd>
-                  <a href="opml.xml" title="export the {planet:name} subscription list in OPML format">
-                    <xsl:text disable-output-escaping='yes'>&lt;img src="images/opml.png" alt="OPML"&gt;</xsl:text>
-                  </a>
+              <a href="opml.xml" title="export the {planet:name} subscription list in OPML format">
+                <xsl:text disable-output-escaping='yes'>&lt;img src="images/opml.png" alt="OPML"&gt;</xsl:text>
+              </a>
             </dd>
             <dd>
-                  <a href="foafroll.xml" title="export the {planet:name} subscription list in FOAF format">
-                    <xsl:text disable-output-escaping='yes'>&lt;img src="images/foaf.png" alt="FOAF"&gt;</xsl:text>
-                  </a>
+              <a href="foafroll.xml" title="export the {planet:name} subscription list in FOAF format">
+                <xsl:text disable-output-escaping='yes'>&lt;img src="images/foaf.png" alt="FOAF"&gt;</xsl:text>
+              </a>
             </dd>
           </dl>
 
@@ -168,16 +169,16 @@
           <xsl:value-of select="atom:source/planet:name"/>
         </a>
         <xsl:if test="atom:title">
-	  <xsl:text>&#x20;</xsl:text>
+					<xsl:text>&#x20;</xsl:text>
           <xsl:choose>
-	    <xsl:when test="atom:source/atom:icon">
+						<xsl:when test="atom:source/atom:icon">
               <img src="{atom:source/atom:icon}" class="icon" alt="" />
-	    </xsl:when>
-	    <xsl:otherwise>
+						</xsl:when>
+						<xsl:otherwise>
               <xsl:text>&#x2014;</xsl:text>
-	    </xsl:otherwise>
+						</xsl:otherwise>
           </xsl:choose>
-	  <xsl:text>&#x20;</xsl:text>
+					<xsl:text>&#x20;</xsl:text>
           <a href="{atom:link[@rel='alternate']/@href}">
             <xsl:if test="atom:title/@xml:lang != @xml:lang">
               <xsl:attribute name="xml:lang" select="{atom:title/@xml:lang}"/>
@@ -202,9 +203,21 @@
         </xsl:otherwise>
       </xsl:choose>
 
+      <!-- categories -->
+      <xsl:if test="atom:category[@term != 'Uncategorised']">
+				<div class="categories">
+					<p><xsl:text>Categories: </xsl:text></p>
+					<ul class="categories">
+						<xsl:apply-templates select="atom:category"/>
+					</ul>
+				</div>
+				<xsl:text>&#10;</xsl:text>
+      </xsl:if>
+
       <!-- entry footer -->
       <xsl:text>&#10;</xsl:text>
       <div class="permalink">
+				<!-- license -->
         <xsl:if test="atom:link[@rel='license'] or
                       atom:source/atom:link[@rel='license'] or
                       atom:rights or atom:source/atom:rights">
@@ -220,7 +233,7 @@
               <xsl:attribute name="href">
                 <xsl:value-of select="atom:link[@rel='license']/@href"/>
               </xsl:attribute>
-           </xsl:if>
+            </xsl:if>
             <xsl:if test="atom:source/atom:rights">
               <xsl:attribute name="title">
                 <xsl:value-of select="atom:source/atom:rights"/>
@@ -235,6 +248,7 @@
           </a>
           <xsl:text> </xsl:text>
         </xsl:if>
+				<!-- permalink -->
         <a href="{atom:link[@rel='alternate']/@href}" class="permalink">
           <xsl:choose>
             <xsl:when test="atom:author/atom:name">
@@ -260,6 +274,7 @@
             <xsl:value-of select="atom:updated/@planet:format"/>
           </span>
         </a>
+				<!-- replies -->
         <xsl:if test="atom:link[@rel='replies'][@type='text/html']">
 					<xsl:text disable-output-escaping='yes'>&lt;br&gt;</xsl:text>
 					<xsl:choose>
@@ -305,6 +320,12 @@
 
   <!-- Feedburner detritus -->
   <xsl:template match="xhtml:div[@class='feedflare']"/>
+
+  <xsl:template match="atom:category">
+    <xsl:if test="./@term and ./@term != 'Uncategorised'">
+      <li><xsl:value-of select="./@term"/></li>
+    </xsl:if>
+  </xsl:template>
 
   <!-- Remove stray atom elements -->
   <xsl:template match="atom:*">
