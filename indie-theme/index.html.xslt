@@ -148,11 +148,7 @@
     <xsl:if test="not(preceding-sibling::atom:entry
       [substring(atom:updated,1,10) = $date])">
       <xsl:text>&#10;&#10;</xsl:text>
-      <h2 class="date">
-        <xsl:value-of select="substring-before(atom:updated/@planet:format,', ')"/>
-        <xsl:text>, </xsl:text>
-        <xsl:value-of select="substring-before(substring-after(atom:updated/@planet:format,', '), ' ')"/>
-      </h2>
+      <h2 class="date"><xsl:value-of select="$date"/></h2>
     </xsl:if>
 
     <xsl:text>&#10;&#10;</xsl:text>
@@ -264,6 +260,19 @@
             <xsl:value-of select="atom:updated/@planet:format"/>
           </span>
         </a>
+        <xsl:if test="atom:link[@rel='replies'][@type='text/html']">
+					<xsl:text disable-output-escaping='yes'>&lt;br&gt;</xsl:text>
+					<xsl:choose>
+						<xsl:when test="atom:link[@rel='replies'][@type='text/html']/@title">
+							<a href="{atom:link[@rel='replies'][@type='text/html']/@href}" class="replies">
+								<xsl:value-of select="atom:link[@rel='replies'][@type='text/html']/@title"/>
+							</a>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:text>Comments</xsl:text>
+						</xsl:otherwise>
+					</xsl:choose>
+        </xsl:if>
       </div>
       </div>
     </div>

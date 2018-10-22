@@ -149,12 +149,17 @@ h1 {
 #body h2.date {
 	text-transform: none;
 	font-size: 1em;
-	color: #222;
+	color: #444;
 	text-align: right;
-	padding: 3px 15px 2px 5px;
+	font-weight: normal;
         max-width:50em;
-	margin: 0;
 }
+#body h2.date:before {
+    content: "🌞 ";
+}
+
+
+
 
 /* ----------------------------- News ---------------------------- */
 
@@ -168,6 +173,7 @@ h1 {
 	margin: 0 0 .5em 0;
 	padding: 0px;
 	font-size: 1.5em;
+	font-weight: normal;
 }
 .news h3 a {
         color:#036;
