@@ -28,6 +28,10 @@
       <outline title="Coins and Scrolls" xmlUrl="https://coinsandscrolls.blogspot.com/feeds/posts/default"/>
       <outline title="Buildings Are People" xmlUrl="https://buildingsarepeople.blogspot.com/feeds/posts/default"/>
       <outline title="Ten Foot Polemic" xmlUrl="https://tenfootpolemic.blogspot.com/feeds/posts/default"/>
+      <outline title="The Lizard Man Diaries" xmlUrl="https://lizardmandiaries.blogspot.com/feeds/posts/default"/>
+      <outline title="Mazirian’s Garden" xmlUrl="http://maziriansgarden.blogspot.com/feeds/posts/default"/>
+      <outline title="Weapon versus Armor Class" xmlUrl="https://frotz.weaponvsac.space/feeds/posts/default"/>
+      <!-- <outline title="" xmlUrl=""/> -->
     </outline>
   </body>
 </opml>
