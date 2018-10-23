@@ -4,7 +4,7 @@
                 xmlns:xhtml="http://www.w3.org/1999/xhtml"
                 xmlns:planet="http://planet.intertwingly.net/"
                 xmlns="http://www.w3.org/1999/xhtml"
-		exclude-result-prefixes="atom planet xhtml">
+								exclude-result-prefixes="atom planet xhtml">
 
 <xsl:output method="html" encoding="utf-8" indent="yes" />
 
@@ -217,6 +217,7 @@
       <!-- entry footer -->
       <xsl:text>&#10;</xsl:text>
       <div class="permalink">
+
 				<!-- license -->
         <xsl:if test="atom:link[@rel='license'] or
                       atom:source/atom:link[@rel='license'] or
@@ -248,6 +249,7 @@
           </a>
           <xsl:text> </xsl:text>
         </xsl:if>
+
 				<!-- permalink -->
         <a href="{atom:link[@rel='alternate']/@href}" class="permalink">
           <xsl:choose>
@@ -274,6 +276,7 @@
             <xsl:value-of select="atom:updated/@planet:format"/>
           </span>
         </a>
+
 				<!-- replies -->
         <xsl:if test="atom:link[@rel='replies'][@type='text/html']">
 					<xsl:text disable-output-escaping='yes'>&lt;br&gt;</xsl:text>
@@ -330,6 +333,21 @@
   <!-- Remove stray atom elements -->
   <xsl:template match="atom:*">
     <xsl:apply-templates/>
+  </xsl:template>
+
+	<!-- Whitespace after some elements -->
+	<xsl:template match="atom:p | atom:li | atom:blockquote | atom:th | atom:td">
+		<xsl:apply-templates select="node()"/>
+		<span class="paragraph">¶ </span>
+  </xsl:template>
+	<!-- Whitespace for any sequence of br -->
+	<!-- <xsl:template match="atom:br"> -->
+	<!-- 	<xsl:if test="name(preceding::*[1]) != 'br'"> -->
+	<!-- 		<span class="paragraph">¶ </span> -->
+	<!-- 	</xsl:if> -->
+  <!-- </xsl:template> -->
+	<xsl:template match="atom:br">
+			<xsl:text> </xsl:text>
   </xsl:template>
 
   <!-- pass through everything else -->

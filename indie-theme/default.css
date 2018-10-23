@@ -158,7 +158,11 @@ h1 {
     content: "🌞 ";
 }
 
-
+.paragraph {
+    padding: 2px;
+    font-size: 80%;
+    color: #888;
+}
 
 
 /* ----------------------------- News ---------------------------- */
@@ -191,13 +195,10 @@ h1 {
 .news .categories {
     margin-top: 1em;
 }
-.news .categories * {
+.news .categories *, .news .categories ul.categories {
     display: inline;
     margin: 0;
     padding: 0;
-}
-.news .categories ul.categories {
-    margin: 0;
 }
 .news .categories li:first-child:before {
     content: "";

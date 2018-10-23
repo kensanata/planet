@@ -9,7 +9,7 @@ Parameters:
 Notes:
  * if 'img' is in the list of tags to be omitted <img> tags are replaced with
    hypertext links associated with the value of the 'alt' attribute.  If there
-   is no alt attribute value, <img> is used instead.  If the parent element
+   is no alt attribute value, the link is lost.  If the parent element
    of the img tag is already an <a> tag, no additional hypertext links are
    added.
 """
@@ -52,9 +52,6 @@ class copy:
         if source.nodeName in omit:
             if source.nodeName == 'img':
                 return self.elideImage(source, target)
-            if source.nodeName == 'br':
-                target.appendChild(self.dom.createTextNode(" "))
-                return
             # copy the children of the element
             return self.copyChildren(source, target)
 
