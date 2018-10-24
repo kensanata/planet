@@ -38,7 +38,7 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 0.25em;
 	padding: 10px;
-	margin: 0px 0px 0px 0px;
+	margin: 0;
 	font-weight: normal;
 }
 
@@ -390,3 +390,49 @@ table {
 	text-align: left;
 }
 
+/* ------------------------- Small Devices ------------------------- */
+
+@media only screen and (max-width: 1000px) {
+    body {
+        margin: 0.2em;
+    }
+    .news .content {
+	padding: 0;
+	margin: 0;
+    }
+    #sidebar {
+	float: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+    }
+    #sidebar ul {
+	list-style: none;
+	display: none;
+    }
+    #sidebar ul.shown {
+	display: block;
+    }
+    #sidebar ul.hidden {
+	display: none;
+    }
+    #sidebar li {
+	float: left;
+	width: 100%;
+	white-space: nowrap;
+    }
+    /* hide INFO */
+    #sidebar h2, #sidebar dl, #sidebar form {
+	display: none;
+    }
+    #sidebar h2, #sidebar dl, #sidebar form {
+	display: none;
+    }
+    /* show MEMBERS */
+    #sidebar h2:first-of-type {
+	display: block;
+	background: #ddd;
+	margin: 0.5em;
+	cursor: pointer;
+    }
+}

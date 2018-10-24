@@ -1,10 +1,5 @@
 var entries = []; // list of news items
 
-var days   = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
-              "Friday", "Saturday"];
-var months = ["January", "February", "March", "April", "May", "June", "July",
-              "August", "September", "October", "November", "December"];
-
 // event complete: stop propagation of the event
 function stopPropagation(event) {
   if (event.preventDefault) {
@@ -126,9 +121,28 @@ function addOption(event) {
   }
 }
 
+function toggle(elem) {
+   if (elem.className=="shown") {
+      elem.className="hidden";
+   }
+   else {
+      elem.className="shown";
+   }
+}
+
+function addMenu() {
+  var sidebar = document.getElementById('sidebar');
+  if (!sidebar) return;
+  var ul = sidebar.getElementsByTagName('ul')[0];
+  var h2 = sidebar.getElementsByTagName('h2')[0];
+  if (!ul || !h2) return;
+  h2.onclick = function(){toggle(ul)};
+}
+
 // adjust dates to local time zones, optionally provide navigation keys
 function personalize() {
   addOption();
+  addMenu();
 }
 
 // hook event

@@ -6,11 +6,11 @@
                 xmlns="http://www.w3.org/1999/xhtml"
 								exclude-result-prefixes="atom planet xhtml">
 
-<xsl:output method="html" encoding="utf-8" indent="yes" />
+	<xsl:output method="html" encoding="utf-8" indent="yes" />
 
-<xsl:template match="atom:feed">
+	<xsl:template match="atom:feed">
 
-  <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;&#10;</xsl:text>
+		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;&#10;</xsl:text>
 
     <html>
 
@@ -19,32 +19,34 @@
       <head><xsl:text>&#10;&#10;</xsl:text>
         <xsl:text disable-output-escaping='yes'>&lt;link rel="stylesheet" href="default.css" type="text/css"/&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <title><xsl:value-of select="atom:title"/></title><xsl:text>&#10;</xsl:text>
-	<!-- meta robots -->
-	<xsl:text disable-output-escaping='yes'>&lt;meta name="robots" content="noindex,nofollow"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
-	<!-- meta generator -->
+        <!-- meta robots -->
+        <xsl:text disable-output-escaping='yes'>&lt;meta name="robots" content="noindex,nofollow"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
+        <!-- meta viewport -->
+        <xsl:text disable-output-escaping='yes'>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
+        <!-- meta generator -->
         <xsl:text disable-output-escaping='yes'>&lt;meta name="generator" content="</xsl:text>
-	<xsl:value-of select="atom:generator"/>
-	<xsl:text disable-output-escaping='yes'>"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
-	<!-- link to atom.xml -->
+        <xsl:value-of select="atom:generator"/>
+        <xsl:text disable-output-escaping='yes'>"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
+        <!-- link to atom.xml -->
         <xsl:if test="atom:link[@rel='self']">
           <xsl:text disable-output-escaping='yes'>&lt;link rel="alternate" href="</xsl:text>
           <xsl:value-of select="atom:link[@rel='self']/@href"/><xsl:text>" title="</xsl:text>
-	  <xsl:value-of select="atom:title"/><xsl:text>" type="</xsl:text>
+          <xsl:value-of select="atom:title"/><xsl:text>" type="</xsl:text>
           <xsl:value-of select="atom:link[@rel='self']/@type"/><xsl:text disable-output-escaping='yes'>"&gt;</xsl:text>
-	  <xsl:text>&#10;</xsl:text>
+          <xsl:text>&#10;</xsl:text>
         </xsl:if>
         <xsl:text disable-output-escaping='yes'>&lt;link rel="shortcut icon" type="image/x-icon" href="images/venus.ico"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <xsl:text disable-output-escaping='yes'>&lt;link rel="icon" type="image/x-icon"  href="images/venus.ico"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <script type="text/javascript" src="personalize.js">
-	<!-- hack to prevent XHTML tag minimization -->
-	<xsl:text>&#x20;</xsl:text>
-	</script>
+					<!-- hack to prevent XHTML tag minimization -->
+					<xsl:text>&#x20;</xsl:text>
+        </script>
       </head>
 
       <xsl:text>&#10;&#10;</xsl:text>
       <body>
         <xsl:text>&#10;</xsl:text>
-				<p class="invisible"><a href="#body">Skip to content</a></p>
+        <p class="invisible"><a href="#body">Skip to content</a></p>
         <h1><xsl:value-of select="atom:title"/></h1>
 
         <xsl:text>&#10;</xsl:text>
@@ -57,7 +59,7 @@
           <xsl:text>&#10;&#10;</xsl:text>
           <h2>Members</h2>
           <xsl:text>&#10;</xsl:text>
-          <ul>
+          <ul class="hidden">
             <xsl:for-each select="planet:source">
               <xsl:sort select="planet:name"/>
               <xsl:text>&#10;</xsl:text>
@@ -146,8 +148,7 @@
   <xsl:template match="atom:entry">
     <!-- date header -->
     <xsl:variable name="date" select="substring(atom:updated,1,10)"/>
-    <xsl:if test="not(preceding-sibling::atom:entry
-      [substring(atom:updated,1,10) = $date])">
+    <xsl:if test="not(preceding-sibling::atom:entry[substring(atom:updated,1,10) = $date])">
       <xsl:text>&#10;&#10;</xsl:text>
       <h2 class="date"><xsl:value-of select="$date"/></h2>
     </xsl:if>
@@ -169,16 +170,16 @@
           <xsl:value-of select="atom:source/planet:name"/>
         </a>
         <xsl:if test="atom:title">
-					<xsl:text>&#x20;</xsl:text>
+          <xsl:text>&#x20;</xsl:text>
           <xsl:choose>
-						<xsl:when test="atom:source/atom:icon">
+            <xsl:when test="atom:source/atom:icon">
               <img src="{atom:source/atom:icon}" class="icon" alt="" />
-						</xsl:when>
-						<xsl:otherwise>
+            </xsl:when>
+            <xsl:otherwise>
               <xsl:text>&#x2014;</xsl:text>
-						</xsl:otherwise>
+            </xsl:otherwise>
           </xsl:choose>
-					<xsl:text>&#x20;</xsl:text>
+          <xsl:text>&#x20;</xsl:text>
           <a href="{atom:link[@rel='alternate']/@href}">
             <xsl:if test="atom:title/@xml:lang != @xml:lang">
               <xsl:attribute name="xml:lang" select="{atom:title/@xml:lang}"/>
@@ -191,107 +192,107 @@
       <!-- entry content -->
       <xsl:text>&#10;</xsl:text>
       <div class="content">
-      <xsl:choose>
-        <xsl:when test="planet:excerpt">
-          <xsl:apply-templates select="planet:excerpt"/>
-        </xsl:when>
-        <xsl:when test="atom:content">
-          <xsl:apply-templates select="atom:content"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates select="atom:summary"/>
-        </xsl:otherwise>
-      </xsl:choose>
+				<xsl:choose>
+					<xsl:when test="planet:excerpt">
+						<xsl:apply-templates select="planet:excerpt"/>
+					</xsl:when>
+					<xsl:when test="atom:content">
+						<xsl:apply-templates select="atom:content"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:apply-templates select="atom:summary"/>
+					</xsl:otherwise>
+				</xsl:choose>
 
-      <!-- categories -->
-      <xsl:if test="atom:category[@term != 'Uncategorised']">
-				<div class="categories">
-					<p><xsl:text>Categories: </xsl:text></p>
-					<ul class="categories">
-						<xsl:apply-templates select="atom:category"/>
-					</ul>
-				</div>
+				<!-- categories -->
+				<xsl:if test="atom:category[@term != 'Uncategorised']">
+          <div class="categories">
+            <p><xsl:text>Categories: </xsl:text></p>
+            <ul class="categories">
+              <xsl:apply-templates select="atom:category"/>
+            </ul>
+          </div>
+          <xsl:text>&#10;</xsl:text>
+				</xsl:if>
+
+				<!-- entry footer -->
 				<xsl:text>&#10;</xsl:text>
-      </xsl:if>
+				<div class="permalink">
 
-      <!-- entry footer -->
-      <xsl:text>&#10;</xsl:text>
-      <div class="permalink">
+          <!-- license -->
+					<xsl:if test="atom:link[@rel='license'] or
+												atom:source/atom:link[@rel='license'] or
+												atom:rights or atom:source/atom:rights">
+						<a>
+							<xsl:if test="atom:source/atom:link[@rel='license']/@href">
+								<xsl:attribute name="rel">license</xsl:attribute>
+								<xsl:attribute name="href">
+									<xsl:value-of select="atom:source/atom:link[@rel='license']/@href"/>
+								</xsl:attribute>
+							</xsl:if>
+							<xsl:if test="atom:link[@rel='license']/@href">
+								<xsl:attribute name="rel">license</xsl:attribute>
+								<xsl:attribute name="href">
+									<xsl:value-of select="atom:link[@rel='license']/@href"/>
+								</xsl:attribute>
+							</xsl:if>
+							<xsl:if test="atom:source/atom:rights">
+								<xsl:attribute name="title">
+									<xsl:value-of select="atom:source/atom:rights"/>
+								</xsl:attribute>
+							</xsl:if>
+							<xsl:if test="atom:rights">
+								<xsl:attribute name="title">
+									<xsl:value-of select="atom:rights"/>
+								</xsl:attribute>
+							</xsl:if>
+							<xsl:text>&#169;</xsl:text>
+						</a>
+						<xsl:text> </xsl:text>
+					</xsl:if>
 
-				<!-- license -->
-        <xsl:if test="atom:link[@rel='license'] or
-                      atom:source/atom:link[@rel='license'] or
-                      atom:rights or atom:source/atom:rights">
-          <a>
-            <xsl:if test="atom:source/atom:link[@rel='license']/@href">
-              <xsl:attribute name="rel">license</xsl:attribute>
-              <xsl:attribute name="href">
-                <xsl:value-of select="atom:source/atom:link[@rel='license']/@href"/>
-              </xsl:attribute>
-            </xsl:if>
-            <xsl:if test="atom:link[@rel='license']/@href">
-              <xsl:attribute name="rel">license</xsl:attribute>
-              <xsl:attribute name="href">
-                <xsl:value-of select="atom:link[@rel='license']/@href"/>
-              </xsl:attribute>
-            </xsl:if>
-            <xsl:if test="atom:source/atom:rights">
-              <xsl:attribute name="title">
-                <xsl:value-of select="atom:source/atom:rights"/>
-              </xsl:attribute>
-            </xsl:if>
-            <xsl:if test="atom:rights">
-              <xsl:attribute name="title">
-                <xsl:value-of select="atom:rights"/>
-              </xsl:attribute>
-            </xsl:if>
-            <xsl:text>&#169;</xsl:text>
-          </a>
-          <xsl:text> </xsl:text>
-        </xsl:if>
+          <!-- permalink -->
+					<a href="{atom:link[@rel='alternate']/@href}" class="permalink">
+						<xsl:choose>
+							<xsl:when test="atom:author/atom:name">
+								<xsl:if test="not(atom:link[@rel='license'] or
+                                  atom:source/atom:link[@rel='license'] or
+                                  atom:rights or atom:source/atom:rights)">
+									<xsl:text>by </xsl:text>
+								</xsl:if>
+								<xsl:value-of select="atom:author/atom:name"/>
+								<xsl:text> at </xsl:text>
+							</xsl:when>
+							<xsl:when test="atom:source/atom:author/atom:name">
+								<xsl:if test="not(atom:link[@rel='license'] or
+                                  atom:source/atom:link[@rel='license'] or
+                                  atom:rights or atom:source/atom:rights)">
+									<xsl:text>by </xsl:text>
+								</xsl:if>
+								<xsl:value-of select="atom:source/atom:author/atom:name"/>
+								<xsl:text> at </xsl:text>
+							</xsl:when>
+						</xsl:choose>
+						<span class="date" title="GMT">
+							<xsl:value-of select="atom:updated/@planet:format"/>
+						</span>
+					</a>
 
-				<!-- permalink -->
-        <a href="{atom:link[@rel='alternate']/@href}" class="permalink">
-          <xsl:choose>
-            <xsl:when test="atom:author/atom:name">
-              <xsl:if test="not(atom:link[@rel='license'] or
-                                atom:source/atom:link[@rel='license'] or
-                                atom:rights or atom:source/atom:rights)">
-                <xsl:text>by </xsl:text>
-              </xsl:if>
-              <xsl:value-of select="atom:author/atom:name"/>
-              <xsl:text> at </xsl:text>
-            </xsl:when>
-            <xsl:when test="atom:source/atom:author/atom:name">
-              <xsl:if test="not(atom:link[@rel='license'] or
-                                atom:source/atom:link[@rel='license'] or
-                                atom:rights or atom:source/atom:rights)">
-                <xsl:text>by </xsl:text>
-              </xsl:if>
-              <xsl:value-of select="atom:source/atom:author/atom:name"/>
-              <xsl:text> at </xsl:text>
-            </xsl:when>
-          </xsl:choose>
-          <span class="date" title="GMT">
-            <xsl:value-of select="atom:updated/@planet:format"/>
-          </span>
-        </a>
-
-				<!-- replies -->
-        <xsl:if test="atom:link[@rel='replies'][@type='text/html']">
-					<xsl:text disable-output-escaping='yes'>&lt;br&gt;</xsl:text>
-					<xsl:choose>
-						<xsl:when test="atom:link[@rel='replies'][@type='text/html']/@title">
-							<a href="{atom:link[@rel='replies'][@type='text/html']/@href}" class="replies">
-								<xsl:value-of select="atom:link[@rel='replies'][@type='text/html']/@title"/>
-							</a>
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:text>Comments</xsl:text>
-						</xsl:otherwise>
-					</xsl:choose>
-        </xsl:if>
-      </div>
+          <!-- replies -->
+					<xsl:if test="atom:link[@rel='replies'][@type='text/html']">
+            <xsl:text disable-output-escaping='yes'>&lt;br&gt;</xsl:text>
+            <xsl:choose>
+              <xsl:when test="atom:link[@rel='replies'][@type='text/html']/@title">
+                <a href="{atom:link[@rel='replies'][@type='text/html']/@href}" class="replies">
+                  <xsl:value-of select="atom:link[@rel='replies'][@type='text/html']/@title"/>
+                </a>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:text>Comments</xsl:text>
+              </xsl:otherwise>
+            </xsl:choose>
+					</xsl:if>
+				</div>
       </div>
     </div>
 
@@ -306,7 +307,7 @@
         </xsl:attribute>
       </xsl:if>
       <xsl:apply-templates select="@*|node()"/>
-   </xsl:copy>
+		</xsl:copy>
   </xsl:template>
 
   <!-- plain text content -->
@@ -335,19 +336,19 @@
     <xsl:apply-templates/>
   </xsl:template>
 
-	<!-- Whitespace after some elements -->
-	<xsl:template match="atom:p | atom:li | atom:blockquote | atom:th | atom:td">
-		<xsl:apply-templates select="node()"/>
-		<span class="paragraph">¶ </span>
+  <!-- Whitespace after some elements -->
+  <xsl:template match="atom:p | atom:li | atom:blockquote | atom:th | atom:td">
+    <xsl:apply-templates select="node()"/>
+    <span class="paragraph">¶ </span>
   </xsl:template>
-	<!-- Whitespace for any sequence of br -->
-	<!-- <xsl:template match="atom:br"> -->
-	<!-- 	<xsl:if test="name(preceding::*[1]) != 'br'"> -->
-	<!-- 		<span class="paragraph">¶ </span> -->
-	<!-- 	</xsl:if> -->
+  <!-- Whitespace for any sequence of br -->
+  <!-- <xsl:template match="atom:br"> -->
+  <!--         <xsl:if test="name(preceding::*[1]) != 'br'"> -->
+  <!--                 <span class="paragraph">¶ </span> -->
+  <!--         </xsl:if> -->
   <!-- </xsl:template> -->
-	<xsl:template match="atom:br">
-			<xsl:text> </xsl:text>
+  <xsl:template match="atom:br">
+    <xsl:text> </xsl:text>
   </xsl:template>
 
   <!-- pass through everything else -->

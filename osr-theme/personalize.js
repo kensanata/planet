@@ -1,10 +1,5 @@
 var entries = []; // list of news items
 
-var days   = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
-              "Friday", "Saturday"];
-var months = ["January", "February", "March", "April", "May", "June", "July",
-              "August", "September", "October", "November", "December"];
-
 // event complete: stop propagation of the event
 function stopPropagation(event) {
   if (event.preventDefault) {
@@ -126,87 +121,28 @@ function addOption(event) {
   }
 }
 
-// convert date to local time
-var localere = /^(\w+) (\d+) (\w+) \d+ 0?(\d\d?:\d\d):\d\d ([AP]M) (EST|EDT|CST|CDT|MST|MDT|PST|PDT)/;
-function localizeDate(element) {
-  var date = new Date();
-  date.setTime(Date.parse(element.innerHTML + " GMT"));
-
-  var local = date.toLocaleString();
-  var match = local.match(localere);
-  if (match) {
-    element.innerHTML = match[4] + ' ' + match[5].toLowerCase();
-    element.title = match[6] + " \u2014 " + 
-      match[1] + ', ' + match[3] + ' ' + match[2];
-    return days[date.getDay()] + ', ' + months[date.getMonth()] + ' ' +
-      date.getDate() + ', ' + date.getFullYear();
-  } else {
-    element.title = element.innerHTML + ' GMT';
-    element.innerHTML = local;
-    return days[date.getDay()] + ', ' + date.getDate() + ' ' +
-      months[date.getMonth()] + ' ' + date.getFullYear();
-  }
-
+function toggle(elem) {
+   if (elem.className=="shown") {
+      elem.className="hidden";
+   }
+   else {
+      elem.className="shown";
+   }
 }
 
-// find entries (and localizeDates)
-function findEntries() {
-
-  var span = document.getElementsByTagName('span');
-   
-  for (var i=0; i<span.length; i++) {
-    if (span[i].className == "date" && span[i].title == "GMT") {
-      var date = localizeDate(span[i]);
-
-      var parent = span[i];
-      while (parent && parent.className != 'news') {
-        parent = parent.parentNode;
-      }
-
-      if (parent) {
-        var info = entries[entries.length] = new Object();
-        info.parent = parent;
-        info.date   = date;
-      }
-    }
-  }
-
-}
-
-// insert/remove date headers to indicate change of date in local time zone
-function moveDateHeaders() {
-  lastdate = ''
-  for (var i=0; i<entries.length; i++) {
-    var parent = entries[i].parent;
-    var date = entries[i].date;
-
-    sibling = parent.previousSibling;
-    while (sibling && sibling.nodeType != 1) {
-       sibling = sibling.previousSibling;
-    }
-
-    if (sibling && sibling.nodeName.toLowerCase() == 'h2') {
-      if (lastdate == date) {
-        sibling.parentNode.removeChild(sibling);
-      } else {
-        sibling.innerHTML = date;
-        lastdate = date;
-      }
-    } else if (lastdate != date) {
-      var h2 = document.createElement('h2');
-      h2.className = 'date'
-      h2.appendChild(document.createTextNode(date));
-      parent.parentNode.insertBefore(h2, parent);
-      lastdate = date;
-    }
-  }
+function addMenu() {
+  var sidebar = document.getElementById('sidebar');
+  if (!sidebar) return;
+  var ul = sidebar.getElementsByTagName('ul')[0];
+  var h2 = sidebar.getElementsByTagName('h2')[0];
+  if (!ul || !h2) return;
+  h2.onclick = function(){toggle(ul)};
 }
 
 // adjust dates to local time zones, optionally provide navigation keys
 function personalize() {
-  findEntries(); 
   addOption();
-  moveDateHeaders();
+  addMenu();
 }
 
 // hook event

@@ -21,6 +21,8 @@
         <title><xsl:value-of select="atom:title"/></title><xsl:text>&#10;</xsl:text>
         <!-- meta robots -->
         <xsl:text disable-output-escaping='yes'>&lt;meta name="robots" content="noindex,nofollow"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
+        <!-- meta viewport -->
+        <xsl:text disable-output-escaping='yes'>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <!-- meta generator -->
         <xsl:text disable-output-escaping='yes'>&lt;meta name="generator" content="</xsl:text>
         <xsl:value-of select="atom:generator"/>
@@ -58,7 +60,7 @@
           <xsl:text>&#10;&#10;</xsl:text>
           <h2>Members</h2>
           <xsl:text>&#10;</xsl:text>
-          <ul>
+          <ul class="hidden">
             <xsl:for-each select="planet:source">
               <xsl:sort select="planet:name"/>
               <xsl:text>&#10;</xsl:text>
