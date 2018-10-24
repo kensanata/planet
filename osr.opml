@@ -20,7 +20,7 @@
       <outline title="An Abominable Fancy" xmlUrl="https://abominablefancy.blogspot.com/feeds/posts/default"/>
       <outline title="Dwarven Automata" xmlUrl="http://www.dwarvenautomata.com/feed/"/>
       <outline title="The Goblinburg Notebook" xmlUrl="https://goblinburg.blogspot.com/feeds/posts/default"/>
-      <outline title="From Kuroth's Quill - grodog's AD&amp;D blog " xmlUrl="https://grodog.blogspot.com/feeds/posts/default"/>
+      <outline title="From Kuroth's Quill" xmlUrl="https://grodog.blogspot.com/feeds/posts/default"/>
       <outline title="The Retired Adventurer" xmlUrl="https://retiredadventurer.blogspot.com/feeds/posts/default"/>
       <outline title="Wizard Thief Fighter" xmlUrl="https://www.wizardthieffighter.com/feed/"/>
       <outline title="Wizardshaw" xmlUrl="https://wizardshaw.blogspot.com/feeds/posts/default"/>
@@ -36,6 +36,15 @@
       <outline title="Trollish Delver" xmlUrl="http://www.trollishdelver.com/feeds/posts/default"/>
       <outline title="Spells and Steel" xmlUrl="https://spellsandsteel.blogspot.com/feeds/posts/default"/>
       <outline title="TrollBones" xmlUrl="https://trollbones.blogspot.com/feeds/posts/default"/>
+      <outline title="Gamers &amp; Grognards" xmlUrl="http://gamersandgrognards.blogspot.com/feeds/posts/default"/>
+      <outline title="Goblin's Henchman" xmlUrl="https://goblinshenchman.wordpress.com/feed/"/>
+      <outline title="Kill It With Fire!" xmlUrl="https://killitwithfirerpg.blogspot.com/feeds/posts/default"/>
+      <outline title="By Odin's Beard" xmlUrl="https://osr.colinlesueur.com/tag/osr/feed/"/>
+      <outline title="Axes &amp; Orcs" xmlUrl="https://axesnorcs.blogspot.com/feeds/posts/default"/>
+      <outline title="Thought Eater" xmlUrl="https://frothsofdnd.blogspot.com/feeds/posts/default"/>
+      <outline title="Graphite Prime" xmlUrl="https://graphiteprime.blogspot.com/feeds/posts/default"/>
+      <outline title="The Furthest Lands" xmlUrl="http://www.furthestlands.com/feeds/posts/default"/>
+      <outline title="Ynas Midgard" xmlUrl="https://ynasmidgard.blogspot.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>

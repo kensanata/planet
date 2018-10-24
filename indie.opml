@@ -12,8 +12,8 @@
       <outline title="Spouting Lore" xmlUrl="https://spoutinglore.blogspot.com/feeds/posts/default"/>
       <outline title="Burn After Running" xmlUrl="https://burnafterrunningrpg.com/feed/"/>
       <outline title="UFO Press" xmlUrl="https://ufopress.co.uk/feed/"/>
-      <!-- <outline title="" xmlUrl=""/> -->
-      <!-- <outline title="" xmlUrl=""/> -->
+      <outline title="Red Moose Games" xmlUrl="https://redmoosegames.blogspot.com/feeds/posts/default"/>
+      <outline title="Step into RPGs" xmlUrl="https://stepintorpgs.wordpress.com/feed/"/>
     </outline>
   </body>
 </opml>
