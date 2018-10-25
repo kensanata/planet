@@ -57,9 +57,10 @@
 					</p>
 
           <xsl:text>&#10;&#10;</xsl:text>
-          <h2>Members</h2>
+          <h2><label for="toggle">Members</label></h2>
           <xsl:text>&#10;</xsl:text>
-          <ul class="hidden">
+					<input type="checkbox" id="toggle"/>
+          <ul id="toggled">
             <xsl:for-each select="planet:source">
               <xsl:sort select="planet:name"/>
               <xsl:text>&#10;</xsl:text>

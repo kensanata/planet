@@ -1,4 +1,1 @@
-#! -*- mode:apache-conf-generic -*-
-
-DirectoryIndex index.html
-AddDefaultCharset utf-8
+/home/alex/planet/osr-theme/.htaccess

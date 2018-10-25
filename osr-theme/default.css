@@ -392,6 +392,10 @@ table {
 
 /* ------------------------- Small Devices ------------------------- */
 
+#toggle {
+    display: none;
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         margin: 0.2em;
@@ -410,11 +414,15 @@ table {
 	list-style: none;
 	display: none;
     }
-    #sidebar ul.shown {
-	display: block;
+    #sidebar h2 label:before {
+	content: "☰ ";
+	font-size: 1.2em;
     }
-    #sidebar ul.hidden {
-	display: none;
+    #sidebar h2 label:hover {
+	cursor: pointer;
+    }
+    #toggle:checked ~ #toggled {
+	display: block;
     }
     #sidebar li {
 	float: left;
