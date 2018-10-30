@@ -13,6 +13,10 @@
       <outline title="UFO Press" xmlUrl="https://ufopress.co.uk/feed/"/>
       <outline title="Red Moose Games" xmlUrl="https://redmoosegames.blogspot.com/feeds/posts/default"/>
       <outline title="Step into RPGs" xmlUrl="https://stepintorpgs.wordpress.com/feed/"/>
+      <outline title="The Renaissance Woodsman" xmlUrl="https://renaissancewoodsman.wordpress.com/category/indie/feed/"/>
+      <outline title="Mhu Thulan" xmlUrl="https://mhuthulan.mediumquality.uk/feed/"/>
+      <outline title="Aggregate Cognizance" xmlUrl="http://feeds.feedburner.com/AggregateCognizance?format=xml"/>
+      <outline title="Yore" xmlUrl="https://www.martinralya.com/category/tabletop-rpgs/story-games/feed/"/>
     </outline>
   </body>
 </opml>
