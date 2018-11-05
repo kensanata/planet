@@ -2,7 +2,7 @@
   <body>
     <outline title="OSR Blogs">
       <outline title="Dreams of Mythic Fantasy" xmlUrl="https://dreamsofmythicfantasy.blogspot.com/feeds/posts/default"/>
-      <outline title="Take on Rules" xmlUrl="https://takeonrules.com/feed/"/>
+      <outline title="Take on Rules" xmlUrl="https://takeonrules.com/feed.xml"/>
       <outline title="The Grand Tapestry" xmlUrl="https://thegrandtapestry.blogspot.com/feeds/posts/default"/>
       <outline title="Alex Schroeder" xmlUrl="https://alexschroeder.ch/wiki/feed/full/Old_School"/>
       <outline title="In My Campaign" xmlUrl="http://www.kjd-imc.org/feed/"/>
@@ -56,6 +56,8 @@
       <outline title="Trollsmyth" xmlUrl="https://trollsmyth.blogspot.com/feeds/posts/default"/>
       <outline title="Untitled Dungeon" xmlUrl="https://dnd.mjulius.com/feed/"/>
       <outline title="Richard's Dystopian Pokeverse" xmlUrl="https://lurkerablog.wordpress.com/feed/"/>
+      <outline title="3 Toadstools" xmlUrl="https://3toadstools.blogspot.com/feeds/posts/default"/>
+      <outline title="Yet Another Traveller Blog" xmlUrl="https://travellerrpgblog.blogspot.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>

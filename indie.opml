@@ -3,7 +3,7 @@
     <outline title="Indie RPG Blogs">
       <outline title="Alex Schroeder" xmlUrl="https://alexschroeder.ch/wiki/feed/full/Indie"/>
       <outline title="Space·Time Will Tell" xmlUrl="https://space-timewilltell.yoric.xyz/post/index.xml"/>
-      <outline title="Take on Rules" xmlUrl="https://takeonrules.com/feed/"/>
+      <outline title="Take on Rules" xmlUrl="https://takeonrules.com/feed.xml"/>
       <outline title="blue collar space" xmlUrl="https://vsca.blog/feed/"/>
       <outline title="Thoughty" xmlUrl="http://www.briecs.com/feeds/posts/default"/>
       <outline title="FASA Games, Inc." xmlUrl="https://fasagames.com/feed/"/>
@@ -17,6 +17,7 @@
       <outline title="Mhu Thulan" xmlUrl="https://mhuthulan.mediumquality.uk/feed/"/>
       <outline title="Aggregate Cognizance" xmlUrl="http://feeds.feedburner.com/AggregateCognizance?format=xml"/>
       <outline title="Yore" xmlUrl="https://www.martinralya.com/category/tabletop-rpgs/story-games/feed/"/>
+      <outline title="Attercap" xmlUrl="https://www.attercap.net/rss/"/>
     </outline>
   </body>
 </opml>
