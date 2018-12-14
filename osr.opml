@@ -13,7 +13,7 @@
       <outline title="Unvisible Citadel" xmlUrl="https://unvisiblecitadel.blogspot.com/feeds/posts/default"/>
       <outline title="Dismaster's Den of Unfinished Thoughts" xmlUrl="https://dismastersden.blogspot.com/feeds/posts/default"/>
       <outline title="Methods &amp; Madness" xmlUrl="https://methodsetmadness.blogspot.com/feeds/posts/default"/>
-      <outline title="El Dado Inquieto" xmlUrl="https://eldadoinquieto.blogspot.com/feeds/posts/default"/>
+      <outline title="El Dado Inquieto" xmlUrl="https://eldadoinquieto.blogspot.com/feeds/posts/default/-/English"/>
       <outline title="Dead Cyclops" xmlUrl="https://deadcyclops.blogspot.com/feeds/posts/default"/>
       <outline title="AL0 Lair of the Megagorgon" xmlUrl="https://lairofmegagorgon.blogspot.com/feeds/posts/default"/>
       <outline title="Daimon Games" xmlUrl="https://daimon-games.blogspot.com/feeds/posts/default"/>
@@ -48,7 +48,6 @@
       <outline title="Weird &amp; Wonderful Worlds" xmlUrl="https://weirdwonderfulworlds.blogspot.com/feeds/posts/default"/>
       <outline title="Uncaring Cosmos" xmlUrl="https://uncaringcosmos.com/feed/"/>
       <outline title="Das Boots of Haste" xmlUrl="https://dasbootsofhaste.com/feed/"/>
-      <outline title="Accio Inspirante" xmlUrl="https://accioinspirante.blogspot.com/feeds/posts/default"/>
       <outline title="Damn Elf Press" xmlUrl="https://damnelfpress.wordpress.com/feed/"/>
       <outline title="Goblin Punch" xmlUrl="http://goblinpunch.blogspot.com/feeds/posts/default"/>
       <outline title="Trilemma Adventures" xmlUrl="http://blog.trilemma.com/feeds/posts/default"/>
@@ -66,6 +65,15 @@
       <outline title="Necrotic Gnome" xmlUrl="https://necrotic-gnome-productions.blogspot.com/feeds/posts/default"/>
       <outline title="The Nine and Thirty Kingdoms" xmlUrl="https://9and30kingdoms.blogspot.com/feeds/posts/default"/>
       <outline title="Coiled Sheets of Lead" xmlUrl="https://zrzavy.blogspot.com/feeds/posts/default"/>
+      <outline title="Red Box Vancouver's Blog" xmlUrl="https://redboxvancouver.wordpress.com/old-school-rpg-stuff/feed/"/>
+      <outline title="Faerie Tales &amp; Folklore" xmlUrl="https://faerietalesandfolklore.com/feed/"/>
+      <outline title="Beyond the Drowning Woods" xmlUrl="https://beyondthedrowningwoods.blogspot.com/feeds/posts/default"/>
+      <outline title="Invulnerablog" xmlUrl="http://invulnerablog.imperfekt-industrees.com/?feed=rss2&cat=26"/>
+      <outline title="Zedeck Siew's Writing Hours" xmlUrl="http://zedecksiew.tumblr.com/rss"/>
+      <outline title="Lithyscaphe" xmlUrl="https://lithyscaphe.blogspot.com/feeds/posts/default"/>
+      <outline title="Mock Orange Cairn" xmlUrl="https://mockorangecairn.blogspot.com/feeds/posts/default"/>
+      <outline title="Doomslakers!" xmlUrl="https://doomslakers.blogspot.com/feeds/posts/default"/>
+      <outline title="Infinite Machine" xmlUrl="https://infinitemachinegames.com/category/osr/feed/"/>
     </outline>
   </body>
 </opml>
