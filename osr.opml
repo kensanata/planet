@@ -36,22 +36,22 @@
       <outline title="Trollish Delver" xmlUrl="http://www.trollishdelver.com/feeds/posts/default"/>
       <outline title="Spells and Steel" xmlUrl="https://spellsandsteel.blogspot.com/feeds/posts/default"/>
       <outline title="TrollBones" xmlUrl="https://trollbones.blogspot.com/feeds/posts/default"/>
-      <outline title="Gamers &amp; Grognards" xmlUrl="http://gamersandgrognards.blogspot.com/feeds/posts/default"/>
+      <outline title="Gamers &amp; Grognards" xmlUrl="https://gamersandgrognards.blogspot.com/feeds/posts/default"/>
       <outline title="Goblin's Henchman" xmlUrl="https://goblinshenchman.wordpress.com/feed/"/>
       <outline title="Kill It With Fire!" xmlUrl="https://killitwithfirerpg.blogspot.com/feeds/posts/default"/>
       <outline title="By Odin's Beard" xmlUrl="https://osr.colinlesueur.com/tag/osr/feed/"/>
       <outline title="Axes &amp; Orcs" xmlUrl="https://axesnorcs.blogspot.com/feeds/posts/default"/>
       <outline title="Thought Eater" xmlUrl="https://frothsofdnd.blogspot.com/feeds/posts/default"/>
       <outline title="Graphite Prime" xmlUrl="https://graphiteprime.blogspot.com/feeds/posts/default"/>
-      <outline title="The Furthest Lands" xmlUrl="http://www.furthestlands.com/feeds/posts/default"/>
+      <outline title="The Furthest Lands" xmlUrl="https://www.furthestlands.com/feeds/posts/default"/>
       <outline title="Ynas Midgard" xmlUrl="https://ynasmidgard.blogspot.com/feeds/posts/default"/>
       <outline title="Weird &amp; Wonderful Worlds" xmlUrl="https://weirdwonderfulworlds.blogspot.com/feeds/posts/default"/>
       <outline title="Uncaring Cosmos" xmlUrl="https://uncaringcosmos.com/feed/"/>
       <outline title="Das Boots of Haste" xmlUrl="https://dasbootsofhaste.com/feed/"/>
       <outline title="Damn Elf Press" xmlUrl="https://damnelfpress.wordpress.com/feed/"/>
-      <outline title="Goblin Punch" xmlUrl="http://goblinpunch.blogspot.com/feeds/posts/default"/>
-      <outline title="Trilemma Adventures" xmlUrl="http://blog.trilemma.com/feeds/posts/default"/>
-      <outline title="Yore" xmlUrl="https://www.martinralya.com/category/tabletop-rpgs/osr/feed/"/>
+      <outline title="Goblin Punch" xmlUrl="https://goblinpunch.blogspot.com/feeds/posts/default"/>
+      <outline title="Trilemma Adventures" xmlUrl="https://blog.trilemma.com/feeds/posts/default"/>
+      <outline title="Yore" xmlUrl="https://www.martinralya.com/category/tabletop-rpgs/old-school/feed/"/>
       <outline title="Trollsmyth" xmlUrl="https://trollsmyth.blogspot.com/feeds/posts/default"/>
       <outline title="Untitled Dungeon" xmlUrl="https://dnd.mjulius.com/feed/"/>
       <outline title="Richard's Dystopian Pokeverse" xmlUrl="https://lurkerablog.wordpress.com/feed/"/>
@@ -68,12 +68,41 @@
       <outline title="Red Box Vancouver's Blog" xmlUrl="https://redboxvancouver.wordpress.com/old-school-rpg-stuff/feed/"/>
       <outline title="Faerie Tales &amp; Folklore" xmlUrl="https://faerietalesandfolklore.com/feed/"/>
       <outline title="Beyond the Drowning Woods" xmlUrl="https://beyondthedrowningwoods.blogspot.com/feeds/posts/default"/>
-      <outline title="Invulnerablog" xmlUrl="http://invulnerablog.imperfekt-industrees.com/?feed=rss2&cat=26"/>
-      <outline title="Zedeck Siew's Writing Hours" xmlUrl="http://zedecksiew.tumblr.com/rss"/>
+      <outline title="Invulnerablog" xmlUrl="http://invulnerablog.imperfekt-industrees.com/?feed=atom"/>
+      <outline title="Zedeck Siew's Writing Hours" xmlUrl="https://zedecksiew.tumblr.com/rss"/>
       <outline title="Lithyscaphe" xmlUrl="https://lithyscaphe.blogspot.com/feeds/posts/default"/>
       <outline title="Mock Orange Cairn" xmlUrl="https://mockorangecairn.blogspot.com/feeds/posts/default"/>
       <outline title="Doomslakers!" xmlUrl="https://doomslakers.blogspot.com/feeds/posts/default"/>
       <outline title="Infinite Machine" xmlUrl="https://infinitemachinegames.com/category/osr/feed/"/>
+      <outline title="Wrathofzombie's Blog" xmlUrl="https://wrathofzombie.wordpress.com/feed/"/>
+      <outline title="Demogorgon" xmlUrl="https://www.demogorgon.org/feeds/posts/default"/>
+      <outline title="A Life Full of Adventure" xmlUrl="https://alifefullofadventure.blogspot.com/feeds/posts/default/-/RPG"/>
+      <outline title="The Disoriented Ranger" xmlUrl="https://the-disoriented-ranger.blogspot.com/feeds/posts/default"/>
+      <outline title="Leicester's Ramble" xmlUrl="https://leicestersramble.blogspot.com/feeds/posts/default"/>
+      <outline title="Papers &amp; Pencils" xmlUrl="https://www.paperspencils.com/?feed=rss2"/>
+      <outline title="Melancholies and Mirth" xmlUrl="https://melancholiesandmirth.blogspot.com/feeds/posts/default"/>
+      <outline title="d4 Caltrops" xmlUrl="https://blog.d4caltrops.com/feeds/posts/default"/>
+      <outline title="Death &amp; Dismemberment" xmlUrl="https://deathanddismemberment.blogspot.com/feeds/posts/default"/>
+      <outline title="Cavegirl's Game Stuff" xmlUrl="https://cavegirlgames.blogspot.com/feeds/posts/default"/>
+      <outline title="And He Built A Crooked Dungeon" xmlUrl="https://reverancepavane.blogspot.com/feeds/posts/default"/>
+      <outline title="The Acorn Afloat" xmlUrl="https://acornafloat.blogspot.com/feeds/posts/default"/>
+      <outline title="Old Huron Archive" xmlUrl="https://old-huron-archive.netlify.com/index.xml"/>
+      <outline title="Detect Magic" xmlUrl="https://detectmagic.wordpress.com/feed/"/>
+      <outline title="Sorcery &amp; Skulduggery" xmlUrl="https://sorceryandskulduggery.blogspot.com/feeds/posts/default"/>
+      <outline title="Throne of Salt" xmlUrl="https://throneofsalt.blogspot.com/feeds/posts/default"/>
+      <outline title="Roles, Rules, and Rolls" xmlUrl="https://rolesrules.blogspot.com/feeds/posts/default"/>
+      <outline title="Highland Paranormal Society" xmlUrl="https://hpsbooks.blogspot.com/feeds/posts/default"/>
+      <outline title="Rigour and Reverie" xmlUrl="https://rigourandreverie.blogspot.com/feeds/posts/default"/>
+      <outline title="Back to the Keep" xmlUrl="https://backtothekeep.blogspot.com/feeds/posts/default"/>
+      <outline title="The Savage AfterWorld" xmlUrl="https://savageafterworld.blogspot.com/feeds/posts/default"/>
+      <outline title="Questing Beast" xmlUrl="https://questingblog.com/feed/"/>
+      <outline title="Forrest for the Trees" xmlUrl="https://forrestaguirre.blogspot.com/feeds/posts/default"/>
+      <outline title="Sycarion Diversions" xmlUrl="http://www.sycarion.com/feed/"/>
+      <outline title="…and then what happens?" xmlUrl="https://then-what-happens.blogspot.com/feeds/posts/default"/>
+      <outline title="Gothridge Manor" xmlUrl="https://gothridgemanor.blogspot.com/feeds/posts/default"/>
+      <outline title="A Roll of the Dice" xmlUrl="https://abraxarba.blogspot.com/feeds/posts/default"/>
+      <outline title="Giblet Blizzard" xmlUrl="https://gibletblizzard.blogspot.com/feeds/posts/default"/>
+      <outline title="B/X Blackrazor" xmlUrl="https://bxblackrazor.blogspot.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>
