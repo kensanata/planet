@@ -1,4 +1,6 @@
-.PHONY: osr indie
+.PHONY: both osr indie
+
+both: osr indie
 
 osr:
 	~/bin/planet-osr
