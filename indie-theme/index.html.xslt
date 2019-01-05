@@ -339,7 +339,7 @@
   </xsl:template>
 
   <!-- Whitespace after some elements -->
-  <xsl:template match="atom:p | atom:li | atom:blockquote | atom:th | atom:td">
+  <xsl:template match="atom:div | atom:p | atom:li | atom:blockquote | atom:th | atom:td">
     <xsl:apply-templates select="node()"/>
     <span class="paragraph">¶ </span>
   </xsl:template>
