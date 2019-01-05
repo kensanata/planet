@@ -53,7 +53,8 @@
         <div id="sidebar">
 
 					<p class="small">
-						<a href="/wiki/Planet/What%20is%20this%3f">What is this?</a>
+            <a href="/wiki/Planet/What_is_this%3f">What is this?</a> •
+            <a href="/wiki/Planet/Please_join!">Please join!</a>
 					</p>
 
           <xsl:text>&#10;&#10;</xsl:text>
