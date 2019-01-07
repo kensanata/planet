@@ -6,27 +6,27 @@
 /* ----------------------------- Global Definitions -------------------- */
 
 body {
-	margin: 1em 2em;
-	padding: 0;
-	color: #222;
-	background-color: #fff;
-	quotes: "\201C" "\201E" "\2018" "\2019";
+    margin: 1em 2em;
+    padding: 0;
+    color: #222;
+    background-color: #fff;
+    quotes: "\201C" "\201E" "\2018" "\2019";
 }
 
 .invisible {
-	display: none;
+    display: none;
 }
 
 .small {
-	font-size: smaller;
+    font-size: smaller;
 }
 
 a:link {
-	color: #222;
+    color: #222;
 }
 
 a:visited {
-	color: #555;
+    color: #555;
 }
 
 a[rel~='license'] {
@@ -34,103 +34,103 @@ a[rel~='license'] {
 }  
 
 h1 {
-	font-size: 1.75em;
-	text-transform: uppercase;
-	letter-spacing: 0.25em;
-	padding: 10px;
-	margin: 0;
-	font-weight: normal;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    padding: 10px;
+    margin: 0;
+    font-weight: normal;
 }
 
 /* ----------------------------- Sidebar --------------------------- */
 
 #sidebar {
-	float: right;
-	top: 150px;
-	right: 0px;
-	width: 15em;
-	background-color: white;
-	padding: 0px 10px 20px 0px;
-	margin: 0px 0px 20px 20px;
+    float: right;
+    top: 150px;
+    right: 0px;
+    width: 15em;
+    background-color: white;
+    padding: 0px 10px 20px 0px;
+    margin: 0px 0px 20px 20px;
 }
 
 #sidebar h2 {
-	letter-spacing: 0.15em;
-	text-transform: uppercase;
-	font-size: .9em;
-	color: #222;
-	font-weight: bold;
-	padding: 3px 0px 2px 4px;
-	margin: 15px 0px 5px 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: .9em;
+    color: #222;
+    font-weight: bold;
+    padding: 3px 0px 2px 4px;
+    margin: 15px 0px 5px 10px;
 }
 
 #sidebar p {
-	font-size: .8em;
-	padding-left: 20px;
-	padding-right: 5px;
+    font-size: .8em;
+    padding-left: 20px;
+    padding-right: 5px;
 }
 
 #sidebar ul {
-	font-family: sans-serif;
-	margin-left: 5px;
-	padding-left: 25px;
+    font-family: sans-serif;
+    margin-left: 5px;
+    padding-left: 25px;
 }
 
 #sidebar li {
-	margin-left: 0px;
-	text-indent: -15px;
-	list-style-type: none;
-	font-size: .8em;
-        line-height: 1.2em;
+    margin-left: 0px;
+    text-indent: -15px;
+    list-style-type: none;
+    font-size: .8em;
+    line-height: 1.2em;
 }
 
 #sidebar ul li a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 #sidebar ul li a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 #sidebar img {
-	border: 0;
+    border: 0;
 }
 
 #sidebar dl {
-	font-size: .8em;
-	padding-left: 1.0em;
+    font-size: .8em;
+    padding-left: 1.0em;
 }
 
 #sidebar dl ul {
-	padding-left: 1em;
+    padding-left: 1em;
 }
 
 #sidebar dt {
-	margin-top: 1em;
-	font-weight: bold;
-	padding-left: 1.0em;
+    margin-top: 1em;
+    font-weight: bold;
+    padding-left: 1.0em;
 }
 
 #sidebar dd {
-	margin-left: 2.5em;
+    margin-left: 2.5em;
 }
 
 #sidebar .message {
-	cursor: help;
-	border-bottom: 1px dashed red;
+    cursor: help;
+    border-bottom: 1px dashed red;
 }
 
 #sidebar a:active,
 #sidebar a:hover {
-        color: #FFCC66;
+    color: #FFCC66;
 }
 
 #sidebar a.message:hover {
-	cursor: help;
-	background-color: #ffD0D0;
-        color:#000;
-	border: 1px dashed red !important;
-	text-decoration: none !important;
+    cursor: help;
+    background-color: #ffD0D0;
+    color:#000;
+    border: 1px dashed red !important;
+    text-decoration: none !important;
 }
 #sidebar dl a {
     text-decoration:none;
@@ -139,20 +139,20 @@ h1 {
 /* ----------------------------- Body ---------------------------- */
 
 #body {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .admin {
-	text-align: right;
+    text-align: right;
 }
 
 #body h2.date {
-	text-transform: none;
-	font-size: 1em;
-	color: #444;
-	text-align: right;
-	font-weight: normal;
-        max-width:50em;
+    text-transform: none;
+    font-size: 1em;
+    color: #444;
+    text-align: right;
+    font-weight: normal;
+    max-width:50em;
 }
 #body h2.date:before {
     content: "🌞 ";
@@ -168,28 +168,28 @@ h1 {
 /* ----------------------------- News ---------------------------- */
 
 .news {
-	margin: 30px 10px 30px 10px;
-	clear: left;
-        max-width: 50em;
+    margin: 30px 10px 30px 10px;
+    clear: left;
+    max-width: 50em;
 }
 
 .news h3 {
-	margin: 0 0 .5em 0;
-	padding: 0px;
-	font-size: 1.5em;
-	font-weight: normal;
+    margin: 0 0 .5em 0;
+    padding: 0px;
+    font-size: 1.5em;
+    font-weight: normal;
 }
 .news h3 a {
-        color:#036;
-        text-decoration:none;
+    color:#036;
+    text-decoration:none;
 }
 
 .news .content {
-	margin: 5px 5px 5px 15px;
-	padding: 0px 1em 1em 1em;
-	line-height: 1.5em;
-	font-size: 1em;
-	font-family: sans-serif;
+    margin: 5px 5px 5px 15px;
+    padding: 0px 1em 1em 1em;
+    line-height: 1.5em;
+    font-size: 1em;
+    font-family: sans-serif;
 }
 
 .news .categories {
@@ -208,81 +208,81 @@ h1 {
 }
 
 .news .permalink {
-	text-align: right;
+    text-align: right;
 }
 
 .news .icon {
-	height: 1em;
-	width: 1em;
-	border: 0;
-	bottom: 0;
+    height: 1em;
+    width: 1em;
+    border: 0;
+    bottom: 0;
 }
 
 /* ----------------------------- News Content ---------------------------- */
 
 .news .content p {
-	line-height: 1.2em;
+    line-height: 1.2em;
 }
 
 .news .content img {
-	margin: 5px;
+    margin: 5px;
 }
 
 .news .content blockquote {
-	margin: 10px 35px 10px 35px;
-	padding: 5px;
+    margin: 10px 35px 10px 35px;
+    padding: 5px;
 }
 
 .news .content pre {
-	font-family: monospace;
-	border: 1px solid #ddd;
-	padding: 10px;
-	margin: 10px 20px 10px 20px;
-	background-color: #f8f8f8;
-	overflow: auto;
+    font-family: monospace;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    background-color: #f8f8f8;
+    overflow: auto;
 }
 .news .content code {
-       font-family: monospace;
+    font-family: monospace;
 }
 
 .news .content ul, .news .content ol {
-	margin: 5px 35px 5px 35px;
-	padding: 5px;
-	counter-reset: item;
+    margin: 5px 35px 5px 35px;
+    padding: 5px;
+    counter-reset: item;
 }
 
 .news .content ul > ul, .news .content ul > ol, .news .content ol > ul, .news .content ol > ol {
-	margin: 0px 0px 0px 35px;
-	padding: 0px;
+    margin: 0px 0px 0px 35px;
+    padding: 0px;
 }
 
 .news code {
-	font-family: large;
+    font-family: large;
 }
 
 /* --------------------------- Accomodations ----------------------- */
 
 /*  Cosmic Variance */
 .alignright {
-       float:right;
+    float:right;
 }
 .alignleft {
-       float:left;
+    float:left;
 }
 img.alignright {
-	padding: 4px;
-	margin: 0 0 2px 7px;
-	display: inline;
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
 }
 img.centered {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Backreaction */
 div.content:hover a,
 div.permalink:hover a {
-       text-decoration:underline;
+    text-decoration:underline;
 }
 
 /* Musings/String Coffee Table */
@@ -291,28 +291,28 @@ math { white-space: nowrap }
 .numberedEq span, .eqno {float:right}
 merror {display:inline;font-size:1em;}
 img.mathlogo, img.svglogo {
-	float:right;
-	border:0
+    float:right;
+    border:0
 }
 .footnote {font-size: .9em}
 .update h4 {
-        display:inline;
-        font-size:1em;
-        font-weight:bold;
+    display:inline;
+    font-size:1em;
+    font-weight:bold;
 }
 table.plaintable {border-collapse:collapse;}
 .plaintable td {border:1px solid #000; padding: 3px;}
 .plaintable th {padding: 3px;}
 .plaintable caption {
-        font-weight: bold;
-        font-size:1.1em;
-        text-align:center;
-        margin-left:30px;
+    font-weight: bold;
+    font-size:1.1em;
+    text-align:center;
+    margin-left:30px;
 }
 .centeredfigure {
-        position:relative;
-        margin:auto;
-        text-align:center;
+    position:relative;
+    margin:auto;
+    text-align:center;
 }
 .figurecaption {color:#630;}
 
@@ -321,49 +321,49 @@ p.center {text-align:center}
 
 /* boing boing */
 br {
-	clear: none !important;
+    clear: none !important;
 }
 
 /* engadget */
 h6 {
-	clear: left !important;
+    clear: left !important;
 }
 
 /* cadenhead */
 p.sourcecode {
-	font-family: monospace;
-	border: 1px solid #ddd;
-	padding: 10px;
-	margin: 10px 20px 10px 20px;
-	background-color: #f8f8f8;
-	overflow: auto;
+    font-family: monospace;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    background-color: #f8f8f8;
+    overflow: auto;
 }
 
 /* programmableweb */
 .imgRight {
-	float: right;
+    float: right;
 }
 
 /* gizmodo */
 img.left {
-	float: left;
+    float: left;
 }
 
 /* gizmodo */
 img.right {
-	float: right;
+    float: right;
 }
 
 /* gizmodo */
 img.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* wikipedia */
 table {
-        width: auto !important;
+    width: auto !important;
 }
 
 /* del.icio.us */
@@ -375,19 +375,19 @@ table {
 /* ----------------------------- Footer ---------------------------- */
 
 #footer {
-	padding: 0px;
-	margin: 30px 0px 50px 50px;
+    padding: 0px;
+    margin: 30px 0px 50px 50px;
 }
 
 #footer p {
-	padding: 2px 2px 2px 5px;
-	background-color: #ccc;
-	border-top: 1px solid #aaa;
-	border-bottom: 1px solid #aaa;
-	border-left: 1px solid #aaa;
-	letter-spacing: 0.15em;
-	text-transform: uppercase;
-	text-align: left;
+    padding: 2px 2px 2px 5px;
+    background-color: #ccc;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 /* ------------------------- Small Devices ------------------------- */
