@@ -91,7 +91,7 @@
       <outline title="Sorcery &amp; Skulduggery" xmlUrl="https://sorceryandskulduggery.blogspot.com/feeds/posts/default"/>
       <outline title="Throne of Salt" xmlUrl="https://throneofsalt.blogspot.com/feeds/posts/default"/>
       <outline title="Roles, Rules, and Rolls" xmlUrl="https://rolesrules.blogspot.com/feeds/posts/default"/>
-      <outline title="Highland Paranormal Society" xmlUrl="https://hpsbooks.blogspot.com/feeds/posts/default"/>
+      <outline title="Highland Paranormal Society" xmlUrl="http://natetreme.com/blog?format=RSS"/>
       <outline title="Rigour and Reverie" xmlUrl="https://rigourandreverie.blogspot.com/feeds/posts/default"/>
       <outline title="Back to the Keep" xmlUrl="https://backtothekeep.blogspot.com/feeds/posts/default"/>
       <outline title="The Savage AfterWorld" xmlUrl="https://savageafterworld.blogspot.com/feeds/posts/default"/>
@@ -103,6 +103,12 @@
       <outline title="A Roll of the Dice" xmlUrl="https://abraxarba.blogspot.com/feeds/posts/default"/>
       <outline title="Giblet Blizzard" xmlUrl="https://gibletblizzard.blogspot.com/feeds/posts/default"/>
       <outline title="B/X Blackrazor" xmlUrl="https://bxblackrazor.blogspot.com/feeds/posts/default"/>
+      <outline title="noise sans signal" xmlUrl="https://noisesanssignal.blogspot.com/feeds/posts/default"/>
+      <outline title="My Terrible Sorcery Is Without Equal In The West" xmlUrl="https://terriblesorcery.blogspot.com/feeds/posts/default"/>
+      <outline title="ChicagoWiz&#39;s Games" xmlUrl="https://chgowiz-games.blogspot.com/feeds/posts/default"/>
+      <outline title="A Blasted, Cratered Land" xmlUrl="https://crateredland.blogspot.com/feeds/posts/default"/>
+      <outline title="Werdna World" xmlUrl="http://www.acodispo.net/rpg/posts/index.xml"/>
+      <outline title="Remixes and Revelations" xmlUrl="https://www.remixesandrevelations.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>
