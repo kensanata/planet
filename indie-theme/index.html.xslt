@@ -339,16 +339,10 @@
   </xsl:template>
 
   <!-- Whitespace after some elements -->
-  <xsl:template match="atom:div | atom:p | atom:li | atom:blockquote | atom:th | atom:td">
+  <xsl:template match="atom:div | atom:p | atom:li | atom:blockquote | atom:th | atom:td | atom:h1 | atom:h2 | atom:h3 | atom:h4 | atom:h5 | atom:h6">
     <xsl:apply-templates select="node()"/>
     <span class="paragraph">¶ </span>
   </xsl:template>
-  <!-- Whitespace for any sequence of br -->
-  <!-- <xsl:template match="atom:br"> -->
-  <!--         <xsl:if test="name(preceding::*[1]) != 'br'"> -->
-  <!--                 <span class="paragraph">¶ </span> -->
-  <!--         </xsl:if> -->
-  <!-- </xsl:template> -->
   <xsl:template match="atom:br">
     <xsl:text> </xsl:text>
   </xsl:template>
