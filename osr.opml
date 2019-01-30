@@ -122,7 +122,11 @@
       <outline title="Superhero Necromancer" xmlUrl="https://superheronecromancer.blogspot.com/feeds/posts/default"/>
       <outline title="Blog of Exalted Deeds" xmlUrl="https://blogofexalteddeeds.blogspot.com/feeds/posts/default"/>
       <outline title="Archon's Court" xmlUrl="https://archons-court.blogspot.com/feeds/posts/default"/>
-      <outline title="Bat in the Attic" xmlUrl="http://batintheattic.blogspot.com/feeds/posts/default"/>
+      <outline title="Bat in the Attic" xmlUrl="https://batintheattic.blogspot.com/feeds/posts/default"/>
+      <outline title="Cross Planes" xmlUrl="http://www.crossplanes.com/feeds/posts/default"/>
+      <outline title="Treasure Hunters HQ" xmlUrl="https://treasurehuntershq.blogspot.com/feeds/posts/default"/>
+      <outline title="FASERIPING" xmlUrl="https://cosmicheroes.space/blog/index.php/feed/"/>
+      <outline title="Zenopus Archives" xmlUrl="https://zenopusarchives.blogspot.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>
