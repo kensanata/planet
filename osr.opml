@@ -124,7 +124,7 @@
       <outline title="Archon's Court" xmlUrl="https://archons-court.blogspot.com/feeds/posts/default"/>
       <outline title="Bat in the Attic" xmlUrl="https://batintheattic.blogspot.com/feeds/posts/default"/>
       <outline title="Cross Planes" xmlUrl="http://www.crossplanes.com/feeds/posts/default"/>
-      <outline title="Treasure Hunters HQ" xmlUrl="https://treasurehuntershq.blogspot.com/feeds/posts/default"/>
+      <outline title="Treasure Hunters HQ" xmlUrl="https://treasurehuntershq.blogspot.com/feeds/posts/default/-/OSR"/>
       <outline title="FASERIPING" xmlUrl="https://cosmicheroes.space/blog/index.php/feed/"/>
       <outline title="Zenopus Archives" xmlUrl="https://zenopusarchives.blogspot.com/feeds/posts/default"/>
       <outline title="Caverns Measureless to Man" xmlUrl="https://cavernsmeasureless.wordpress.com/feed/"/>
@@ -132,6 +132,13 @@
       <outline title="Tenfootpole" xmlUrl="https://tenfootpole.org/ironspike/?feed=rss2"/>
       <outline title="The Ongoing Campaign" xmlUrl="https://ongoingcampaign.blogspot.com/feeds/posts/default"/>
       <outline title="Red Dice Diaries" xmlUrl="https://reddicediaries.com/feed/"/>
+      <outline title="The Crier of Kemen" xmlUrl="https://crierofkemen.blogspot.com/feeds/posts/default"/>
+      <outline title="Appendix M" xmlUrl="https://appendixm.blogspot.com/feeds/posts/default"/>
+      <outline title="Monsters and Manuals" xmlUrl="https://monstersandmanuals.blogspot.com/feeds/posts/default"/>
+      <outline title="Olde School Wizardry" xmlUrl="https://oldeschoolwizardry.blogspot.com/feeds/posts/default"/>
+      <outline title="Campaigns Playable" xmlUrl="https://campaigns-playable.blogspot.com/feeds/posts/default"/>
+      <outline title="The Wandering Gamist" xmlUrl="https://wanderinggamist.blogspot.com/feeds/posts/default"/>
+      <outline title="Northport" xmlUrl="https://gwythaintny.wordpress.com/feed/"/>
     </outline>
   </body>
 </opml>
