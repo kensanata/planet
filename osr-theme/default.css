@@ -45,6 +45,13 @@ h1 {
 
 /* ----------------------------- Sidebar --------------------------- */
 
+.logo {
+    text-align: center;
+}
+.logo img {
+    width: 80px;
+}
+
 #sidebar {
     float: right;
     top: 150px;
@@ -261,118 +268,6 @@ h1 {
     font-family: large;
 }
 
-/* --------------------------- Accomodations ----------------------- */
-
-/*  Cosmic Variance */
-.alignright {
-    float:right;
-}
-.alignleft {
-    float:left;
-}
-img.alignright {
-    padding: 4px;
-    margin: 0 0 2px 7px;
-    display: inline;
-}
-img.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-/* Backreaction */
-div.content:hover a,
-div.permalink:hover a {
-    text-decoration:underline;
-}
-
-/* Musings/String Coffee Table */
-math[display=block] {overflow:auto;}
-math { white-space: nowrap }
-.numberedEq span, .eqno {float:right}
-merror {display:inline;font-size:1em;}
-img.mathlogo, img.svglogo {
-    float:right;
-    border:0
-}
-.footnote {font-size: .9em}
-.update h4 {
-    display:inline;
-    font-size:1em;
-    font-weight:bold;
-}
-table.plaintable {border-collapse:collapse;}
-.plaintable td {border:1px solid #000; padding: 3px;}
-.plaintable th {padding: 3px;}
-.plaintable caption {
-    font-weight: bold;
-    font-size:1.1em;
-    text-align:center;
-    margin-left:30px;
-}
-.centeredfigure {
-    position:relative;
-    margin:auto;
-    text-align:center;
-}
-.figurecaption {color:#630;}
-
-/* Bosker Blog */
-p.center {text-align:center}
-
-/* boing boing */
-br {
-    clear: none !important;
-}
-
-/* engadget */
-h6 {
-    clear: left !important;
-}
-
-/* cadenhead */
-p.sourcecode {
-    font-family: monospace;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px 20px 10px 20px;
-    background-color: #f8f8f8;
-    overflow: auto;
-}
-
-/* programmableweb */
-.imgRight {
-    float: right;
-}
-
-/* gizmodo */
-img.left {
-    float: left;
-}
-
-/* gizmodo */
-img.right {
-    float: right;
-}
-
-/* gizmodo */
-img.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* wikipedia */
-table {
-    width: auto !important;
-}
-
-/* del.icio.us */
-.delicious-tags {
-    font-size: .8em;
-    text-align: right;
-}
-
 /* ----------------------------- Footer ---------------------------- */
 
 #footer {
@@ -404,6 +299,9 @@ table {
     .news .content {
 	padding: 0;
 	margin: 0;
+    }
+    .logo {
+	display: none;
     }
     #sidebar {
 	float: none;

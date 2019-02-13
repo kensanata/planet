@@ -16,7 +16,8 @@
 
       <!-- head -->
       <xsl:text>&#10;&#10;</xsl:text>
-      <head><xsl:text>&#10;&#10;</xsl:text>
+      <head profile="http://www.w3.org/2005/10/profile"><xsl:text>&#10;&#10;</xsl:text>
+        <xsl:text disable-output-escaping='yes'>&lt;link rel="icon" href="jupiter.png" type="image/png"/&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <xsl:text disable-output-escaping='yes'>&lt;link rel="stylesheet" href="default.css" type="text/css"/&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <title><xsl:value-of select="atom:title"/></title><xsl:text>&#10;</xsl:text>
         <!-- meta robots -->
@@ -51,8 +52,8 @@
 
         <xsl:text>&#10;</xsl:text>
         <div id="sidebar">
-
-					<p class="small">
+					<p class="logo"><xsl:text disable-output-escaping='yes'>&lt;img src="jupiter.svg"&gt;</xsl:text></p>
+          <p class="small">
             <a href="/wiki/Planet/What_is_this%3f">What is this?</a> •
             <a href="/wiki/Planet/Please_join!">Please join!</a>
 					</p>
