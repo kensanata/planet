@@ -23,3 +23,33 @@ But with Google+ going down and me wishing for a comeback of the RPG
 *blogosphere*, here I am, running the Planet again (two, this time around), and
 requiring the bloggers to apply for membership, thus solving the issue of
 consent.
+
+## If you ever feel like installing it all...
+
+I have two scripts in my `~/bin`.
+
+`bin/planet-osr`:
+
+```
+#!/bin/sh
+cd /home/alex/planet
+/usr/bin/python2 ~/src/venus/planet.py -x osr.ini 2>&1 | egrep -v 'ERROR:planet.runner:Error (404|500)'
+true
+```
+
+`bin/planet-indie`:
+
+```
+#!/bin/sh
+cd /home/alex/planet
+/usr/bin/python2 ~/src/venus/planet.py -x indie.ini 2>&1 | egrep -v 'ERROR:planet.runner:Error (404|500)'
+true
+```
+
+And my `crontab` has:
+
+```
+10 */4 *   *   *     /home/alex/bin/planet-osr
+30 */4 *   *   *     /home/alex/bin/planet-indie
+50 */4 *   *   *     /usr/bin/make -f /home/alex/planet/Makefile rpg
+```
