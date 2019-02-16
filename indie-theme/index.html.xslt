@@ -119,24 +119,16 @@
             </dd>
             <dt>Powered by:</dt>
             <dd>
-              <a href="http://intertwingly.net/code/venus/" title="Sam Ruby’s Venus">
-                <xsl:text disable-output-escaping='yes'>&lt;img src="images/venus.png" width="80" height="15"
-                  alt="Venus"&gt;</xsl:text>
-              </a>
+							<a href="http://intertwingly.net/code/venus/" class="venus button">Venus</a>
             </dd>
             <dt>Export:</dt>
             <dd>
-              <a href="opml.xml" title="export the {planet:name} subscription list in OPML format">
-                <xsl:text disable-output-escaping='yes'>&lt;img src="images/opml.png" alt="OPML"&gt;</xsl:text>
-              </a>
+							<a href="opml.xml" class="opml button">OPML</a>
             </dd>
             <dd>
-              <a href="foafroll.xml" title="export the {planet:name} subscription list in FOAF format">
-                <xsl:text disable-output-escaping='yes'>&lt;img src="images/foaf.png" alt="FOAF"&gt;</xsl:text>
-              </a>
+							<a href="atom.xml" class="atom button">Atom</a>
             </dd>
           </dl>
-
         </div>
 
         <xsl:text>&#10;&#10;</xsl:text>

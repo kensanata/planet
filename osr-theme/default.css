@@ -144,6 +144,28 @@ h1 {
     text-decoration:none;
 }
 
+#sidebar dd {
+    margin-top: 5px;
+}
+#sidebar .button {
+    margin: 0 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 80%;
+    padding: 2px 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.opml {
+    background-color: red;
+}
+.atom {
+    background-color: orange;
+}
+.venus {
+    background-color: olive;
+}
+
 /* ----------------------------- Body ---------------------------- */
 
 #body {
