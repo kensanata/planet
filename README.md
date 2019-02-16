@@ -51,5 +51,5 @@ And my `crontab` has:
 ```
 10 */4 *   *   *     /home/alex/bin/planet-osr
 30 */4 *   *   *     /home/alex/bin/planet-indie
-50 */4 *   *   *     /usr/bin/make -f /home/alex/planet/Makefile rpg
+50 */4 *   *   *     /usr/bin/make --silent --file=/home/alex/planet/Makefile rpg
 ```
