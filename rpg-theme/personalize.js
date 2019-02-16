@@ -1,0 +1,1 @@
+/home/alex/planet/osr-theme/personalize.js
