@@ -159,7 +159,7 @@
       <outline title="In Places Deep" xmlUrl="https://inplacesdeep.blogspot.com/feeds/posts/default"/>
       <outline title="Stargazer's World" xmlUrl="https://stargazersworld.com/category/legacy-dd/feed/"/>
       <outline title="a blog full of demons" xmlUrl="https://ablogfullofdemons.blogspot.com/feeds/posts/default"/>
-      <outline title="...You Find A Deck of Many Things." xmlUrl=" https://deck-of-many-things.blogspot.com/feeds/posts/default"/>
+      <outline title="...You Find A Deck of Many Things." xmlUrl="https://deck-of-many-things.blogspot.com/feeds/posts/default"/>
       <outline title="Spriggan's Den" xmlUrl="http://spriggans-den.com/feed/"/>
       <outline title="Ancient Vaults &amp; Eldritch Secrets" xmlUrl="https://ancientvaults.wordpress.com/feed/"/>
       <outline title="Bearded Devil" xmlUrl="http://bearded-devil.com/?feed=rss2"/>
@@ -169,6 +169,7 @@
       <outline title="False Machine" xmlUrl="https://falsemachine.blogspot.com/feeds/posts/default"/>
       <outline title="Spells and Steel" xmlUrl="https://spellsandsteel.blogspot.com/feeds/posts/default"/>
       <outline title="Sorcery &amp; Super Science!" xmlUrl="https://josephbrowning.blogspot.com/feeds/posts/default"/>
+      <outline title="Legacy of the Bieth" xmlUrl="https://lotbieth.blogspot.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>
