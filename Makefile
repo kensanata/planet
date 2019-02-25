@@ -9,7 +9,7 @@ indie:
 	~/bin/planet-indie
 
 rpg: rpg-files
-	~/bin/opml-merge ~/planet/indie.opml ~/planet/osr.opml > ~/planet/rpg.opml
+	~/planet/opml-merge ~/planet/indie.opml ~/planet/osr.opml > ~/planet/rpg.opml
 	/usr/bin/python2 ~/src/venus/planet.py -x -o ~/planet/rpg.ini
 
 rpg-files:

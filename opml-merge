@@ -1,0 +1,44 @@
+#! /home/alex/perl5/perlbrew/perls/perl-5.26.1/bin/perl
+use Modern::Perl '2017';
+use XML::LibXML;
+
+# Set the environment variable VERBOSE to get warnings about duplicate entries
+# on STDERR.
+
+# Prevent "wide character in say" warning
+
+binmode(STDOUT, ':utf8');
+
+# Prepare empty file
+
+my $dom = XML::LibXML->load_xml(string => <<'EOT');
+<opml version="2.0">
+  <body>
+    <outline title="RPG Blogs">
+    </outline>
+  </body>
+</opml>
+EOT
+
+my @outlines = $dom->findnodes('//body/outline');
+my $outline = $outlines[0];
+
+# Import nodes from all the files
+
+my @files = @ARGV;
+my @nodes;
+for my $file (@files) {
+  push(@nodes, XML::LibXML->load_xml(location => $file)->findnodes('//body/outline/outline'));
+}
+
+# Add all the nodes
+
+for my $node (@nodes) {
+  my $text = XML::LibXML::Text->new("\n      ");
+  $outline->appendChild($text);
+  $outline->appendChild($node);
+}
+my $text = XML::LibXML::Text->new("\n    ");
+$outline->appendChild($text);
+
+say $dom;
