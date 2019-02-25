@@ -13,8 +13,8 @@ function stopPropagation(event) {
 // scroll back to the previous article
 function prevArticle(event) {
   for (var i=entries.length; --i>=0;) {
-    if (entries[i].anchor.offsetTop < document.documentElement.scrollTop) {
-      window.location.hash=entries[i].anchor.id;
+    if (entries[i].offsetTop < document.documentElement.scrollTop) {
+      window.location.hash=entries[i].id;
       stopPropagation(event);
       break;
     }
@@ -24,8 +24,8 @@ function prevArticle(event) {
 // advance to the next article
 function nextArticle(event) {
   for (var i=1; i<entries.length; i++) {
-    if (entries[i].anchor.offsetTop-20 > document.documentElement.scrollTop) {
-      window.location.hash=entries[i].anchor.id;
+    if (entries[i].offsetTop-20 > document.documentElement.scrollTop) {
+      window.location.hash=entries[i].id;
       stopPropagation(event);
       break;
     }
@@ -42,19 +42,13 @@ function navkey(event) {
 }
 
 function personalize() {
-  var span = document.getElementsByTagName('span');
-  for (var i=0; i<span.length; i++) {
-    var parent = span[i];
-    while (parent && parent.className != 'news') {
-      parent = parent.parentNode;
-    }
-    
-    if (parent) {
-      var info = entries[entries.length] = new Object();
-      info.parent = parent;
-      info.anchor = document.createElement('a');
-      info.anchor.id = "news-" + i;
-      parent.insertBefore(info.anchor, parent.firstChild);
+  var h = document.getElementsByTagName('h3');
+  for (var i=0; i<h.length; i++) {
+    var a = h[i].getElementsByTagName('a');
+    if (a.length > 1) {
+      var link = a[1];
+      link.id = "news-" + i;
+      entries[entries.length] = link;
     }
   }
 
