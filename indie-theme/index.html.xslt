@@ -17,6 +17,7 @@
       <!-- head -->
       <xsl:text>&#10;&#10;</xsl:text>
       <head profile="http://www.w3.org/2005/10/profile"><xsl:text>&#10;&#10;</xsl:text>
+        <xsl:text disable-output-escaping='yes'>&lt;link rel="shortcut icon" href="jupiter.png" type="image/png"/&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <xsl:text disable-output-escaping='yes'>&lt;link rel="icon" href="jupiter.png" type="image/png"/&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <xsl:text disable-output-escaping='yes'>&lt;link rel="stylesheet" href="default.css" type="text/css"/&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <title><xsl:value-of select="atom:title"/></title><xsl:text>&#10;</xsl:text>
@@ -36,8 +37,6 @@
           <xsl:value-of select="atom:link[@rel='self']/@type"/><xsl:text disable-output-escaping='yes'>"&gt;</xsl:text>
           <xsl:text>&#10;</xsl:text>
         </xsl:if>
-        <xsl:text disable-output-escaping='yes'>&lt;link rel="shortcut icon" type="image/x-icon" href="images/venus.ico"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
-        <xsl:text disable-output-escaping='yes'>&lt;link rel="icon" type="image/x-icon"  href="images/venus.ico"&gt;</xsl:text><xsl:text>&#10;</xsl:text>
         <script type="text/javascript" src="personalize.js">
 					<!-- hack to prevent XHTML tag minimization -->
 					<xsl:text>&#x20;</xsl:text>
