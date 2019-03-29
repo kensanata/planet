@@ -3,13 +3,18 @@
 both: osr indie
 
 osr:
-	~/bin/planet-osr
+	/usr/bin/python2 ~/src/venus/planet.py -x osr.ini
 
 indie:
-	~/bin/planet-indie
+	/usr/bin/python2 ~/src/venus/planet.py -x indie.ini
 
+# do not expunge this one (this one is just added to the other two)
+other:
+	/usr/bin/python2 ~/src/venus/planet.py other.ini
+
+# before we run this one, merge the other data files, and opml files
 rpg: rpg-files
-	~/planet/opml-merge ~/planet/indie.opml ~/planet/osr.opml > ~/planet/rpg.opml
+	~/planet/opml-merge ~/planet/indie.opml ~/planet/osr.opml ~/planet/other.opml > ~/planet/rpg.opml
 	/usr/bin/python2 ~/src/venus/planet.py -x -o ~/planet/rpg.ini
 
 rpg-files:

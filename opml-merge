@@ -14,8 +14,7 @@ binmode(STDOUT, ':utf8');
 my $dom = XML::LibXML->load_xml(string => <<'EOT');
 <opml version="2.0">
   <body>
-    <outline title="RPG Blogs">
-    </outline>
+    <outline title="RPG Blogs"></outline>
   </body>
 </opml>
 EOT
