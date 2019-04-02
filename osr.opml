@@ -184,6 +184,10 @@
       <outline title="Secret Santicore Blog" xmlUrl="https://santicore.blogspot.com/feeds/posts/default"/>
       <outline title="At the Mountains of Weirdness" xmlUrl="https://mountainsofweirdness.blogspot.com/feeds/posts/default"/>
       <outline title="Rumors of War" xmlUrl="https://rumorsofwarcomic.com/feed/"/>
+      <outline title="ropeblogi" xmlUrl="https://ropeblogi.wordpress.com/category/in-english/feed"/>
+      <outline title="Delta's D&amp;D Hotspot" xmlUrl="https://deltasdnd.blogspot.com/feeds/posts/default"/>
+      <outline title="The Other Side" xmlUrl="http://theotherside.timsbrannan.com/feeds/posts/default"/>
+      <outline title="Elder Sküll" xmlUrl="https://elderskull.blogspot.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>
