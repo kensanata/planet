@@ -12,9 +12,13 @@ indie:
 other:
 	/usr/bin/python2 ~/src/venus/planet.py other.ini
 
-# before we run this one, merge the other data files, and opml files
+# before we run this one, merge the other data files (rpg-files)
+# merge the opml files
+# fetch the feeds in other.opml, without expunging
+# run it again, but offline, with all the merged files
 rpg: rpg-files
 	~/planet/opml-merge ~/planet/indie.opml ~/planet/osr.opml ~/planet/other.opml > ~/planet/rpg.opml
+	/usr/bin/python2 ~/src/venus/planet.py       ~/planet/other.ini
 	/usr/bin/python2 ~/src/venus/planet.py -x -o ~/planet/rpg.ini
 
 rpg-files:
