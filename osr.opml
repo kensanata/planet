@@ -153,7 +153,7 @@
       <outline title="Peril and Plunder" xmlUrl="https://perilandplunder.wordpress.com/feed"/>
       <outline title="These Old Games" xmlUrl="https://www.theseoldgames.com/feeds/posts/default"/>
       <outline title="Smoldering Wizard" xmlUrl="https://smolderingwizard.com/feed/"/>
-      <outline title="nerdwerds" xmlUrl="https://nerdwerds.blogspot.com/feeds/posts/default"/>
+      <outline title="nerdwerds" xmlUrl="https://nerdwerds.blogspot.com/feeds/posts/default/-/osr"/>
       <outline title="Planet Algol" xmlUrl="https://planetalgol.blogspot.com/feeds/posts/default"/>
       <outline title="The Wizard of Macke Town" xmlUrl="https://thewizardofmacketown.blogspot.com/feeds/posts/default"/>
       <outline title="In Places Deep" xmlUrl="https://inplacesdeep.blogspot.com/feeds/posts/default"/>
@@ -205,6 +205,9 @@
       <outline title="Rhyming Fool Exits Stage Left" xmlUrl="https://evoroxv.blogspot.com/feeds/posts/default"/>
       <outline title="Ship of Socrates" xmlUrl="http://shipofsocrates.blogspot.com/feeds/posts/default"/>
       <outline title="Rose &amp; Kingfisher" xmlUrl="https://roseandkingfisher.blogspot.com/feeds/posts/default"/>
+      <outline title="Unlawful Games" xmlUrl="https://unlawfulgames.blogspot.com/feeds/posts/default"/>
+      <outline title="Dragons Are Real" xmlUrl="https://dragonsarerealpodcast.tumblr.com/rss"/>
+      <outline title="The Bogeyman's Cave" xmlUrl="https://bogeymanscave.blogspot.com/feeds/posts/default"/>
     </outline>
   </body>
 </opml>

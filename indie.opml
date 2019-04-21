@@ -5,7 +5,7 @@
       <outline title="Space·Time Will Tell" xmlUrl="https://space-timewilltell.yoric.xyz/post/index.xml"/>
       <outline title="Take on Rules" xmlUrl="https://takeonrules.com/feed.xml"/>
       <outline title="blue collar space" xmlUrl="https://vsca.blog/feed/"/>
-      <outline title="Thoughty" xmlUrl="http://briebeau.com/thoughty/feed/"/>
+      <!-- invalid feed? <outline title="Thoughty" xmlUrl="http://briebeau.com/thoughty/feed/"/> -->
       <outline title="FASA Games, Inc." xmlUrl="https://fasagames.com/feed/"/>
       <outline title="Doom Rides" xmlUrl="https://doomrides.blogspot.com/feeds/posts/default"/>
       <outline title="Spouting Lore" xmlUrl="https://spoutinglore.blogspot.com/feeds/posts/default"/>
