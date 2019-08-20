@@ -1,8 +1,9 @@
 # Planet Venus Configurations
 
 These are the configurations and themes I use for
-[Old School RPG Planet]([https://campaignwiki.org/osr/)
-and [Indie RPG Planet]([https://campaignwiki.org/indie/).
+[Old School RPG Planet]([https://campaignwiki.org/osr/),
+[Indie RPG Planet]([https://campaignwiki.org/indie/),
+and the all-in-one [RPG Planet]([https://campaignwiki.org/rpg/).
 
 This all started because Google announced the sunsetting of Google+ and
 the large RPG communities on Google+ started looking for places to go.
@@ -20,7 +21,7 @@ explicit consent and I didn't want to ask
 people for consent.
 
 But with Google+ going down and me wishing for a comeback of the RPG
-*blogosphere*, here I am, running the Planet again (two, this time around), and
+*blogosphere*, here I am, running the Planet again (more than one!), and
 requiring the bloggers to apply for membership, thus solving the issue of
 consent.
 
@@ -53,3 +54,8 @@ And my `crontab` has:
 30 */4 *   *   *     /home/alex/bin/planet-indie
 50 */4 *   *   *     /usr/bin/make --silent --file=/home/alex/planet/Makefile rpg
 ```
+
+I have a copy of
+[Planet Venus](https://alexschroeder.ch/cgit/venus/about/)
+in my repositories as well. As you can see from the log, I make too many changes.
+Sadly, it uses Python 2 instead of Python 3 and I'm unable to fix it...
