@@ -14,6 +14,13 @@ body {
     quotes: "\201C" "\201E" "\2018" "\2019";
 }
 
+
+@media (prefers-color-scheme: dark) {
+    body { color: #ddd; background-color: #000; }
+    img { opacity: .75; transition: opacity .5s ease-in-out; }
+    img:hover { opacity: 1; }
+}
+
 .invisible {
     display: none;
 }
@@ -22,12 +29,12 @@ body {
     font-size: smaller;
 }
 
-a:link {
-    color: #222;
-}
-
-a:visited {
-    color: #555;
+a:link { color: #222; }
+a:visited { color: #555; }
+@media (prefers-color-scheme: dark) {
+    a:link { color: #6ca6cd }
+    a:visited { color: #4a708b }
+    
 }
 
 a[rel~='license'] {
@@ -57,7 +64,6 @@ h1 {
     top: 150px;
     right: 0px;
     width: 15em;
-    background-color: white;
     padding: 0px 10px 20px 0px;
     margin: 0px 0px 20px 20px;
 }
@@ -70,6 +76,9 @@ h1 {
     font-weight: bold;
     padding: 3px 0px 2px 4px;
     margin: 15px 0px 5px 10px;
+}
+@media (prefers-color-scheme: dark) {
+    #sidebar h2 { color: #999 }
 }
 
 #sidebar p {
@@ -125,12 +134,7 @@ h1 {
 
 #sidebar .message {
     cursor: help;
-    border-bottom: 1px dashed red;
-}
-
-#sidebar a:active,
-#sidebar a:hover {
-    color: #FFCC66;
+    border-bottom: 1px dashed salmon;
 }
 
 #sidebar a.message:hover {
@@ -184,6 +188,9 @@ h1 {
     font-weight: normal;
     max-width:50em;
 }
+@media (prefers-color-scheme: dark) {
+    #body h2.date { color: #aaa; }
+}
 #body h2.date:before {
     content: "🌞 ";
 }
@@ -212,6 +219,9 @@ h1 {
 .news h3 a {
     color:#036;
     text-decoration:none;
+}
+@media (prefers-color-scheme: dark) {
+    .news h3 a { color:#87ceff; }
 }
 
 .news .content {
@@ -256,56 +266,6 @@ h1 {
 
 .news .content img {
     margin: 5px;
-}
-
-.news .content blockquote {
-    margin: 10px 35px 10px 35px;
-    padding: 5px;
-}
-
-.news .content pre {
-    font-family: monospace;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px 20px 10px 20px;
-    background-color: #f8f8f8;
-    overflow: auto;
-}
-.news .content code {
-    font-family: monospace;
-}
-
-.news .content ul, .news .content ol {
-    margin: 5px 35px 5px 35px;
-    padding: 5px;
-    counter-reset: item;
-}
-
-.news .content ul > ul, .news .content ul > ol, .news .content ol > ul, .news .content ol > ol {
-    margin: 0px 0px 0px 35px;
-    padding: 0px;
-}
-
-.news code {
-    font-family: large;
-}
-
-/* ----------------------------- Footer ---------------------------- */
-
-#footer {
-    padding: 0px;
-    margin: 30px 0px 50px 50px;
-}
-
-#footer p {
-    padding: 2px 2px 2px 5px;
-    background-color: #ccc;
-    border-top: 1px solid #aaa;
-    border-bottom: 1px solid #aaa;
-    border-left: 1px solid #aaa;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    text-align: left;
 }
 
 /* ------------------------- Small Devices ------------------------- */
