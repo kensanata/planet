@@ -1,9 +1,9 @@
 # Planet Jupiter Configurations
 
 These are the configurations and themes I use for
-[Old School RPG Planet]([https://campaignwiki.org/osr/),
-[Indie RPG Planet]([https://campaignwiki.org/indie/),
-and the all-in-one [RPG Planet]([https://campaignwiki.org/rpg/).
+[Old School RPG Planet](https://campaignwiki.org/osr/),
+[Indie RPG Planet](https://campaignwiki.org/indie/),
+and the all-in-one [RPG Planet](https://campaignwiki.org/rpg/).
 
 This all started because Google announced the sunsetting of Google+ and
 the large RPG communities on Google+ started looking for places to go.
