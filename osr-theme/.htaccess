@@ -1,4 +1,0 @@
-#! -*- mode:apache-conf-generic -*-
-
-DirectoryIndex index.html
-AddDefaultCharset utf-8

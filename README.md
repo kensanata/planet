@@ -1,4 +1,4 @@
-# Planet Venus Configurations
+# Planet Jupiter Configurations
 
 These are the configurations and themes I use for
 [Old School RPG Planet]([https://campaignwiki.org/osr/),
@@ -27,35 +27,42 @@ consent.
 
 ## If you ever feel like installing it all...
 
-I have two scripts in my `~/bin`.
+You need to get [Planet Jupiter](https://alexschroeder.ch/cgit/planet-jupiter/about/).
+I linked `jupiter.pl` in `home/alex/bin/jupiter` and this `bin`
+directory is in my `PATH`.
 
-`bin/planet-osr`:
+My `crontab` calls two scripts every four hours. The first one updates
+the cache and the second one generates the HTML.
 
+```text
+10 */4 *   *   *     /home/alex/bin/planet-update
+40 */4 *   *   *     /home/alex/bin/planet-html
 ```
+
+`planet-update` does the following:
+
+```bash
 #!/bin/sh
 cd /home/alex/planet
-/usr/bin/python2 ~/src/venus/planet.py -x osr.ini 2>&1 | egrep -v 'ERROR:planet.runner:Error (404|500)'
-true
+jupiter update indie.opml osr.opml other.opml
 ```
 
-`bin/planet-indie`:
+`planet-html` does the following:
 
-```
+```bash
 #!/bin/sh
-cd /home/alex/planet
-/usr/bin/python2 ~/src/venus/planet.py -x indie.ini 2>&1 | egrep -v 'ERROR:planet.runner:Error (404|500)'
-true
+cd ~/planet
+
+jupiter html indie.html indie.opml \
+&& mv indie.html ~/campaignwiki.org/indie/index.html \
+&& cp indie.opml ~/campaignwiki.org/indie/
+
+jupiter html osr.html osr.opml \
+&& mv osr.html ~/campaignwiki.org/osr/index.html \
+&& cp osr.opml ~/campaignwiki.org/osr/
+
+jupiter html rpg.html indie.opml osr.opml other.opml \
+&& mv rpg.html ~/campaignwiki.org/rpg/index.html \
+&& cp indie.opml osr.opml other.opml ~/campaignwiki.org/rpg/
 ```
 
-And my `crontab` has:
-
-```
-10 */4 *   *   *     /home/alex/bin/planet-osr
-30 */4 *   *   *     /home/alex/bin/planet-indie
-50 */4 *   *   *     /usr/bin/make --silent --file=/home/alex/planet/Makefile rpg
-```
-
-I have a copy of
-[Planet Venus](https://alexschroeder.ch/cgit/venus/about/)
-in my repositories as well. As you can see from the log, I make too many changes.
-Sadly, it uses Python 2 instead of Python 3 and I'm unable to fix it...

@@ -1,0 +1,8 @@
+<div class="post">
+  <h3><a href="<%= $blog_link %>"><%= $blog_title %></a> — <a href="<%= $link %>"><%= $title %></a></h3>
+  <div class="content"><%= $excerpt %></div>
+% if ($categories) {
+  <div class="categories"><p>Categories:<ul class="categories"><%= join '', map { "<li>$_</li>" } (@$categories); %></ul></div>
+% }
+  <div class="permalink"><a href="<%= $link %>" class="permalink"> by <%= $author %> at <span class="date" title="GMT"><%= $day %></span></a></div>
+</div>

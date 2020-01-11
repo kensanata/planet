@@ -1,5 +1,4 @@
 /osr
 /indie
-/rpg
-/rpg.opml
-*.[0-9]
+/other
+*.json
