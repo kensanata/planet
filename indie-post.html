@@ -4,9 +4,9 @@
 % if ($categories) {
   <div class="categories"><p>Categories:<ul class="categories"><%= join '', map { "<li>$_</li>" } (@$categories); %></ul></div>
 % }
-  <div class="permalink"><a href="<%= $link %>" class="permalink">\
+  <div class="permalink">\
 % if ($author) {
 by <%= $author %>, \
 % }
-<span class="date" title="GMT"><%= $day %></span></a></div>
+<a href="<%= $link %>" class="permalink"><span class="date" title="GMT"><%= $day %></span></a></div>
 </div>
