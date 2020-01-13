@@ -46,6 +46,7 @@
       <dt>Powered by:</dt>
       <dd><a href="https://alexschroeder.ch/cgit/planet-jupiter/about/" class="jupiter button">Jupiter</a></dd>
       <dt>Export:</dt>
+      <dd><a href="feed.xml" class="feed button">RSS</a></dd>
 % for my $file (@{$globals->{files}}) {
       <dd><a href="<%= $file->{file} %>" class="opml button"><%= $file->{name} %></a></dd>
 % }
