@@ -1,2 +1,8 @@
 test:
-	(for f in *.json; do cat $f | jq '.'; done) | grep message | sort | uniq -c
+	@for f in *.json; do \
+	  echo $$f; cat $$f \
+	  | jq '.' \
+	  | grep code | sed 's/,$$//' \
+	  | sort \
+	  | uniq -c; \
+	done
