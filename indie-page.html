@@ -28,11 +28,11 @@
     <ul id="toggled">
 % for my $feed (@$feeds) {
       <li><a href="<%= $feed->{url} =%>"><img src="feed.png" alt="(feed)"></a> \
-%   if ($feed->{message} and $feed->{code} and $feed->{code} ne "200" and $feed->{link}) {
+%   if ($feed->{message} and $feed->{code} and $feed->{code} ne "200" and $feed->{code} ne "304" and $feed->{link}) {
 <a class="message" title="<%= $feed->{message} =%>" href="<%= $feed->{link} =%>"><%= $feed->{title} =%></a>
 %   } elsif ($feed->{link}) {
 <a href="<%= $feed->{link} =%>"><%= $feed->{title} =%></a>
-%   } elsif ($feed->{message} and (not $feed->{code} or $feed->{code} ne "200")) {
+%   } elsif ($feed->{message} and (not $feed->{code} or $feed->{code} ne "200" and $feed->{code} ne "304")) {
 <a class="message" title="<%= $feed->{message} =%>"><%= $feed->{title} =%></a>
 %   } else {
 %= $feed->{title}
