@@ -2,6 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>Old School RPG Planet</title>
+<description>This feed collects Old School RPG blog posts.</description>
 <link>https://campaignwiki.org/osr</link>
 </channel>
 </rss>
