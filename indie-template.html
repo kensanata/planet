@@ -63,7 +63,7 @@
       <h3><a href="<%= $entry->{blog_link} %>"><%= $entry->{blog_title} %></a> — <a href="<%= $entry->{link} %>"><%= $entry->{title} %></a></h3>
       <div class="content"><%= $entry->{excerpt} %></div>
 % if ($entry->{categories}) {
-      <div class="categories"><p>Categories:<ul class="categories"><%= join '', map { "<li>$entry->{_}</li>" } (@$entry->{categories}); %></ul></div>
+      <div class="categories"><p>Categories:<ul class="categories"><%= join '', map { "<li>$_</li>" } (@{$entry->{categories}}); %></ul></div>
 % }
       <div class="permalink">\
 % if ($entry->{authors}) {
