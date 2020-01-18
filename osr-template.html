@@ -58,9 +58,20 @@
 % for my $entry (@$entries) {
 % if ($entry->{day} ne $day) {
 %   $day = $entry->{day};
-<h2 class="date"><%= $entry->{day} =%></h2>
+    <h2 class="date"><%= $entry->{day} =%></h2>
 % }
-%= $entry->{html}
+    <div class="post">
+      <h3><a href="<%= $entry->{blog_link} %>"><%= $entry->{blog_title} %></a> — <a href="<%= $entry->{link} %>"><%= $entry->{title} %></a></h3>
+      <div class="content"><%= $entry->{excerpt} %></div>
+% if ($entry->{categories}) {
+      <div class="categories"><p>Categories:<ul class="categories"><%= join '', map { "<li>$entry->{_}</li>" } (@$entry->{categories}); %></ul></div>
+% }
+      <div class="permalink">\
+% if ($entry->{authors}) {
+by <%= join ', ', @{$entry->{authors}}; %>, \
+% }
+<a href="<%= $entry->{link} %>" class="permalink"><span class="date" title="GMT"><%= $entry->{day} %></span></a></div>
+</div>
 % }
     </div>
   </body>
