@@ -6,3 +6,6 @@ test:
 	  | sort \
 	  | uniq -c; \
 	done
+
+clean:
+	rm -rf osr osr.json indie indie.json rpg rpg.json
