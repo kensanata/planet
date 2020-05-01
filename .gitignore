@@ -1,11 +1,13 @@
+*.json
 /osr
 /indie
 /other
-*.json
-indie.html
+/alex
 osr.html
+indie.html
 rpg.html
-indie.xml
+alex.html
 osr.xml
+indie.xml
 rpg.xml
-alex
+alex.xml
