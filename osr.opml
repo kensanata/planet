@@ -249,8 +249,9 @@
       <outline title="Roleplay-Geek" xmlUrl="https://roleplay-geek.blogspot.com/feeds/posts/default"/>
       <outline title="Omnia Incommoda, Certitudo Nulla" xmlUrl="https://oicn.icu/tag/english/rss.xml"/>
       <outline title="There Could Have Been Snakes" xmlUrl="https://therecouldhavebeensnakes.wordpress.com/feed/"/>
-      <outline title="Ruling With Archangels" xmlUrl="https://archangelruling.blogfree.net/rss.php?f=1158479&nc=1"/>
+      <outline title="Ruling With Archangels" xmlUrl="https://archangelruling.blogfree.net/rss.php?f=1158479&amp;nc=1"/>
       <outline title="Tangled Cloaks" xmlUrl="https://tangledcloaks.blogspot.com/feeds/posts/default"/>
+      <outline title="Blogs on Tape" xmlUrl="http://blogsontape.paperspencils.com/feed/podcast/"/>
     </outline>
   </body>
 </opml>
