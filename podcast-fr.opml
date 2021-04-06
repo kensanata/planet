@@ -3,7 +3,7 @@
   <body>
     <outline title="Podcasts">
       <outline title="Radio Rôliste" xmlUrl="http://radioroliste.podcloud.fr/rss"/>
-      <outline title="Voix d’Altaride" xmlUrl="https://www.cendrones.fr/feed"/>
+      <outline title="Voix d’Altaride" xmlUrl="https://www.cendrones.fr/feed/"/>
       <outline title="Trop Long Pas Lu" xmlUrl="https://troplongpaslu.fr/feed/"/>
       <outline title="Le café Nonobstant" xmlUrl="https://nonobstant.cafe/rss/"/>
       <outline title="L'arpenteur" xmlUrl="https://anchor.fm/s/1e7030c8/podcast/rss"/>
