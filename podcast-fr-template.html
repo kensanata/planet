@@ -21,7 +21,7 @@
     <p class="logo">
       <img src="jupiter.svg">
     <p class="small">
-      <a href="/wiki/Planet/C%E2%80%99est_quoi,_ceci%3f">C’est quoi, ceci?</a> •
+      <a href="/wiki/Planet/C%E2%80%99est_quoi_%3f">C’est quoi ?</a> •
       <a href="/wiki/Planet/Participez%20!">Participez !</a> •
 			<a href="https://www.casusno.fr/viewtopic.php?f=8&t=38417">Liste des podcasts</a>
     <h2><label for="toggle">Membres</label></h2>
@@ -46,7 +46,7 @@
       <dd><span class="date" title="GMT"><%= $globals->{date} %></span></dd>
       <dt>Alimenté par :</dt>
       <dd><a href="https://alexschroeder.ch/cgit/planet-jupiter/about/" class="jupiter button">Jupiter</a></dd>
-      <dt>Export:</dt>
+      <dt>Export :</dt>
       <dd><a href="feed.xml" class="feed button">RSS</a></dd>
 % for my $file (@{$globals->{files}}) {
       <dd><a href="<%= $file->{file} %>" class="opml button"><%= $file->{name} %></a></dd>
@@ -72,7 +72,7 @@
 % }
       <div class="permalink">\
 % if ($entry->{authors}) {
-by <%= join ', ', @{$entry->{authors}}; %>, \
+par <%= join ', ', @{$entry->{authors}}; %>, \
 % }
 <a href="<%= $entry->{link} %>" class="permalink"><span class="date" title="GMT"><%= $entry->{day} %></span></a></div>
 </div>
