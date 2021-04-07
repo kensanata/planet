@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
-  <body>
-    <outline title="Podcasts">
-      <outline title="Halberds &amp; Helmets" xmlUrl="https://alexschroeder.ch/podcast/hh.xml"/>
-    </outline>
-  </body>
+<body>
+<outline title="Podcasts">
+<outline title="Halberds &amp; Helmets" xmlUrl="https://alexschroeder.ch/podcast/hh.xml"/>
+<outline title="The Lost Bay" xmlUrl="https://anchor.fm/s/4f2bdab4/podcast/rss"/>
+</outline>
+</body>
 </opml>
