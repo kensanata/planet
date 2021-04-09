@@ -4,8 +4,8 @@
 <title>RPG Podcast Planet</title>
 <owner>Alex Schroeder</owner>
 <ownerEmail>alex@alexschroeder.ch</ownerEmail>
-<onwerId>https://alexschroeder.ch/wiki/Contact</ownerId>
-<docs>http://dev.opml.org/spec2.html</doc>
+<ownerId>https://alexschroeder.ch/wiki/Contact</ownerId>
+<docs>http://dev.opml.org/spec2.html</docs>
 </head>
 <body>
 <outline title="Halberds &amp; Helmets" text="Halberds &amp; Helmets" type="rss" xmlUrl="https://alexschroeder.ch/podcast/hh.xml"/>
