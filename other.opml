@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<head>
+<title>RPG Blogs</title>
+<owner>Alex Schroeder</owner>
+<ownerEmail>alex@alexschroeder.ch</ownerEmail>
+<onwerId>https://alexschroeder.ch/wiki/Contact</ownerId>
+<docs>http://dev.opml.org/spec2.html</doc>
+</head>
 <opml version="2.0">
-  <body>
-    <outline title="Other Blogs">
-      <outline title="Alex Schroeder" xmlUrl="https://alexschroeder.ch/wiki/feed/full/RPG"/>
-      <outline title="Stargazer’s World" xmlUrl="https://stargazersworld.com/feed/"/>
-      <outline title="dragonbones" xmlUrl="https://feeds.feedburner.com/dragonbones"/>
-      <outline title="nerdwerds" xmlUrl="https://nerdwerds.blogspot.com/feeds/posts/default"/>
-      <outline title="The Furtive Goblin's Burrow" xmlUrl="https://furtivegoblingaming.blogspot.com/feeds/posts/default"/>
-      <outline title="Plastic Polyhedra" xmlUrl="https://plasticpolyhedra.blogspot.com/feeds/posts/default"/>
-      <outline title="The Alexandrian" xmlUrl="https://thealexandrian.net/feed"/>
-      <outline title="The Bottomless Sarcophagus" xmlUrl="https://bottomlesssarcophagus.blogspot.com/feeds/posts/default"/>
-      <outline title="Wanderer Bill’s Journal" xmlUrl="https://betola.de/wandererbill/feed/"/>
-      <outline title="Grindstonë Games" xmlUrl="https://grindstonegames.blogspot.com/feeds/posts/default"/>
-      <outline title="Stories from the Game of Roles" xmlUrl="https://storiesfromthegameofroles.blogspot.com/feeds/posts/default"/>
-      <outline title="Troy Press: RPGs" xmlUrl="http://troypress.com/category/rpgs/feed/"/>
-      <outline title="The Ruins of Murkhill™" xmlUrl="https://originaldungeons-and-dragons.blogspot.com/feeds/posts/default"/>
-      <outline title="Cosmic Cutthroats Blog" xmlUrl="https://blog.cosmiccutthroats.com/feed/"/>
-      <outline title="Invulnerablog" xmlUrl="http://invulnerablog.imperfekt-industrees.com/?feed=rss2"/>
-      <outline title="RPG Ideas" xmlUrl="http://rpgideas.com/index.php/feed/"/>
-      <outline title="Lich Van Winkle" xmlUrl="https://lichvanwinkle.blogspot.com/feeds/posts/default"/>
-      <outline title="Gaming Chronicles" xmlUrl="https://blog.notasnark.net/category/gaming/feed"/>
-      <outline title="The Viridian Scroll" xmlUrl="https://viridianscroll.blogspot.com/feeds/posts/default"/>
-      <outline title="Words &amp; Other Sorcery" xmlUrl="https://www.josephrlewis.com/feed/"/>
-      <outline title="10GP Gems" xmlUrl="https://tengoldpiecegems.blogspot.com/feeds/posts/default"/>
-      <outline title="Idiomdrottning" xmlUrl="https://idiomdrottning.org/blog/rpg/en/"/>
-      <outline title="alea iactanda est" xmlUrl="https://aleaiactandaest.blogspot.com/feeds/posts/default"/>
-      <outline title="Hall of the Grymlorde" xmlUrl="https://grymlorde.blogspot.com/feeds/posts/default"/>
-      <outline title="weaver.skepti.ch" xmlUrl="https://weaver.skepti.ch/atom.xml"/>
-      <outline title="The Roaming GM" xmlUrl="https://bluesunconsulting.com/roaminggm/feed/rss"/>
-      <outline title="Seed of Worlds" xmlUrl="https://seedofworlds.blogspot.com/feeds/posts/default"/>
-      <outline title="3-Rune Blog" xmlUrl="https://blog.peer-less.net/feeds/posts/default"/>
-    </outline>
-  </body>
+<body>
+<outline title="Alex Schroeder" xmlUrl="https://alexschroeder.ch/wiki/feed/full/RPG"/>
+<outline title="Stargazer’s World" xmlUrl="https://stargazersworld.com/feed/"/>
+<outline title="dragonbones" xmlUrl="https://feeds.feedburner.com/dragonbones"/>
+<outline title="nerdwerds" xmlUrl="https://nerdwerds.blogspot.com/feeds/posts/default"/>
+<outline title="The Furtive Goblin's Burrow" xmlUrl="https://furtivegoblingaming.blogspot.com/feeds/posts/default"/>
+<outline title="Plastic Polyhedra" xmlUrl="https://plasticpolyhedra.blogspot.com/feeds/posts/default"/>
+<outline title="The Alexandrian" xmlUrl="https://thealexandrian.net/feed"/>
+<outline title="The Bottomless Sarcophagus" xmlUrl="https://bottomlesssarcophagus.blogspot.com/feeds/posts/default"/>
+<outline title="Wanderer Bill’s Journal" xmlUrl="https://betola.de/wandererbill/feed/"/>
+<outline title="Grindstonë Games" xmlUrl="https://grindstonegames.blogspot.com/feeds/posts/default"/>
+<outline title="Stories from the Game of Roles" xmlUrl="https://storiesfromthegameofroles.blogspot.com/feeds/posts/default"/>
+<outline title="Troy Press: RPGs" xmlUrl="http://troypress.com/category/rpgs/feed/"/>
+<outline title="The Ruins of Murkhill™" xmlUrl="https://originaldungeons-and-dragons.blogspot.com/feeds/posts/default"/>
+<outline title="Cosmic Cutthroats Blog" xmlUrl="https://blog.cosmiccutthroats.com/feed/"/>
+<outline title="Invulnerablog" xmlUrl="http://invulnerablog.imperfekt-industrees.com/?feed=rss2"/>
+<outline title="RPG Ideas" xmlUrl="http://rpgideas.com/index.php/feed/"/>
+<outline title="Lich Van Winkle" xmlUrl="https://lichvanwinkle.blogspot.com/feeds/posts/default"/>
+<outline title="Gaming Chronicles" xmlUrl="https://blog.notasnark.net/category/gaming/feed"/>
+<outline title="The Viridian Scroll" xmlUrl="https://viridianscroll.blogspot.com/feeds/posts/default"/>
+<outline title="Words &amp; Other Sorcery" xmlUrl="https://www.josephrlewis.com/feed/"/>
+<outline title="10GP Gems" xmlUrl="https://tengoldpiecegems.blogspot.com/feeds/posts/default"/>
+<outline title="Idiomdrottning" xmlUrl="https://idiomdrottning.org/blog/rpg/en/"/>
+<outline title="alea iactanda est" xmlUrl="https://aleaiactandaest.blogspot.com/feeds/posts/default"/>
+<outline title="Hall of the Grymlorde" xmlUrl="https://grymlorde.blogspot.com/feeds/posts/default"/>
+<outline title="weaver.skepti.ch" xmlUrl="https://weaver.skepti.ch/atom.xml"/>
+<outline title="The Roaming GM" xmlUrl="https://bluesunconsulting.com/roaminggm/feed/rss"/>
+<outline title="Seed of Worlds" xmlUrl="https://seedofworlds.blogspot.com/feeds/posts/default"/>
+<outline title="3-Rune Blog" xmlUrl="https://blog.peer-less.net/feeds/posts/default"/>
+</body>
 </opml>

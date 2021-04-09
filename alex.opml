@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
+<head>
+<title>Alex’ Reading Roll</title>
+<owner>Alex Schroeder</owner>
+<ownerEmail>alex@alexschroeder.ch</ownerEmail>
+<onwerId>https://alexschroeder.ch/wiki/Contact</ownerId>
+<docs>http://dev.opml.org/spec2.html</doc>
+</head>
 <body>
-<outline title="Alex’ Reading Roll">
 <outline title="Charles Stross" xmlUrl="http://www.antipope.org/charlie/blog-static/atom.xml"/>
 <outline title="Derik Badman’s Journal" xmlUrl="https://journal.derikbadman.com/feed"/>
 <outline title="Meissoun" xmlUrl="https://meissoun.blogspot.com/feeds/posts/default"/>
@@ -14,6 +20,5 @@
 <outline title="A Collection of Unmitigated Pedantry" xmlUrl="https://acoup.blog/feed/"/>
 <outline title="All Dead Generations" xmlUrl="https://alldeadgenerations.blogspot.com/feeds/posts/default"/>
 <outline title="Grognardia" xmlUrl="https://grognardia.blogspot.com/feeds/posts/default"/>
-</outline>
 </body>
 </opml>

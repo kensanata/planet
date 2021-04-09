@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
+<head>
+<title>Podcast Planète des JDR</title>
+<owner>Alex Schroeder</owner>
+<ownerEmail>alex@alexschroeder.ch</ownerEmail>
+<onwerId>https://alexschroeder.ch/wiki/Contact</ownerId>
+<docs>http://dev.opml.org/spec2.html</doc>
+</head>
 <body>
-<outline title="Podcasts">
 <outline title="Radio Rôliste" xmlUrl="http://radioroliste.podcloud.fr/rss"/>
 <outline title="Voix d’Altaride" xmlUrl="https://www.cendrones.fr/feed/"/>
 <outline title="Trop Long Pas Lu" xmlUrl="https://troplongpaslu.fr/feed/"/>
 <outline title="Le café Nonobstant" xmlUrl="https://nonobstant.cafe/podcast/rss/"/>
 <outline title="L'arpenteur" xmlUrl="https://anchor.fm/s/1e7030c8/podcast/rss"/>
-</outline>
 </body>
 </opml>
