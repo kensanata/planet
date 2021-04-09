@@ -8,11 +8,12 @@
 <docs>http://dev.opml.org/spec2.html</docs>
 </head>
 <body>
-<outline title="Halberds &amp; Helmets" text="Halberds &amp; Helmets" type="rss" xmlUrl="https://alexschroeder.ch/podcast/hh.xml"/>
-<outline title="The Lost Bay" text="The Lost Bay" type="rss" xmlUrl="https://anchor.fm/s/4f2bdab4/podcast/rss"/>
-<outline title="gg no re" text="gg no re" type="rss" xmlUrl="https://anchor.fm/s/1f001bc/podcast/rss"/>
-<outline title="Revolution Comes to the Podcast" text="Revolution Comes to the Podcast" type="rss" xmlUrl="https://anchor.fm/s/3b284408/podcast/rss"/>
-<outline title="Ronin Roleplaying" text="Ronin Roleplaying" type="rss" xmlUrl="https://scormey.com/feed/kott/"/>
-<outline title="The Adventuring Party" text="The Adventuring Party" type="rss" xmlUrl="http://theadventuringparty.libsyn.com/rss" htmlUrl="http://theadventuringparty.net/"/>
+<outline title="Halberds &amp; Helmets" xmlUrl="https://alexschroeder.ch/podcast/hh.xml"/>
+<outline title="The Lost Bay" xmlUrl="https://anchor.fm/s/4f2bdab4/podcast/rss"/>
+<outline title="gg no re" xmlUrl="https://anchor.fm/s/1f001bc/podcast/rss"/>
+<outline title="Revolution Comes to the Podcast" xmlUrl="https://anchor.fm/s/3b284408/podcast/rss"/>
+<outline title="Ronin Roleplaying" xmlUrl="https://scormey.com/feed/kott/"/>
+<outline title="The Adventuring Party" xmlUrl="http://theadventuringparty.libsyn.com/rss" htmlUrl="http://theadventuringparty.net/"/>
+<outline title="Dicey Stories" xmlUrl="https://diceystories.com/feed/podcast"/>
 </body>
 </opml>
