@@ -4,8 +4,8 @@
 <title>Alex’ Reading Roll</title>
 <owner>Alex Schroeder</owner>
 <ownerEmail>alex@alexschroeder.ch</ownerEmail>
-<onwerId>https://alexschroeder.ch/wiki/Contact</ownerId>
-<docs>http://dev.opml.org/spec2.html</doc>
+<ownerId>https://alexschroeder.ch/wiki/Contact</ownerId>
+<docs>http://dev.opml.org/spec2.html</docs>
 </head>
 <body>
 <outline title="Charles Stross" xmlUrl="http://www.antipope.org/charlie/blog-static/atom.xml"/>

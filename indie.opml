@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
 <head>
 <title>Indie RPG Blogs</title>
 <owner>Alex Schroeder</owner>
 <ownerEmail>alex@alexschroeder.ch</ownerEmail>
-<onwerId>https://alexschroeder.ch/wiki/Contact</ownerId>
-<docs>http://dev.opml.org/spec2.html</doc>
+<ownerId>https://alexschroeder.ch/wiki/Contact</ownerId>
+<docs>http://dev.opml.org/spec2.html</docs>
 </head>
-<opml version="2.0">
 <body>
 <outline title="6d6 RPG" xmlUrl="http://6d6rpg.com/feed/"/>
 <outline title="Across the Table with Ric &amp; Rob" xmlUrl="http://feeds.feedburner.com/wordpress/jNMa"/>
