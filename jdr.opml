@@ -10,6 +10,6 @@
 <body>
 <outline title="Chez Whidou" xmlUrl="https://www.whidou.fr/feeds/all.atom.xml"/>
 <outline title="Culture Jdr" xmlUrl="https://culturejdr.fr/feed/"/>
-<outline title="Senior Rôliste" xmlUrl="http://senioroliste.com//rss"/>
+<outline title="Senior Rôliste" xmlUrl="http://senioroliste.com/rss"/>
 </body>
 </opml>
