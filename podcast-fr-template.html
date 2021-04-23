@@ -23,6 +23,7 @@
     <p class="small">
       <a href="/wiki/Planet/C%E2%80%99est_quoi_%3f">C’est quoi ?</a> •
       <a href="/wiki/Planet/Participez%20!">Participez !</a> •
+      <a href="/jdr">Blogs</a> •
 			<a href="https://www.casusno.fr/viewtopic.php?f=8&t=38417">Liste des podcasts</a>
     <h2><label for="toggle">Membres</label></h2>
     <input type="checkbox" id="toggle">
@@ -63,7 +64,7 @@
     <div class="post">
       <h3><a href="<%= $entry->{blog_link} %>"><%= $entry->{blog_title} %></a> — <a href="<%= $entry->{link} %>"><%= $entry->{title} %></a></h3>
       <div class="content"><%= $entry->{excerpt} %></div>
-      <audio controls>
+      <audio controls preload="none">
         <source src="<%= $entry->{element}->findnodes('enclosure/@url') %>" type="<%= $entry->{element}->findnodes('enclosure/@type') %>">
         <p><a href="<%= $entry->{element}->findnodes('enclosure/@url') %>">Audio</a></p>
       </audio>

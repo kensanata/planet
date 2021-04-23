@@ -22,7 +22,8 @@
       <img src="jupiter.svg">
     <p class="small">
       <a href="/wiki/Planet/What_is_this%3f">What is this?</a> •
-      <a href="/wiki/Planet/Please_join!">Please join!</a>
+      <a href="/wiki/Planet/Please_join!">Please join!</a> •
+      <a href="/rpg">Blogs</a>
     <h2><label for="toggle">Members</label></h2>
     <input type="checkbox" id="toggle">
     <ul id="toggled">
@@ -62,7 +63,7 @@
     <div class="post">
       <h3><a href="<%= $entry->{blog_link} %>"><%= $entry->{blog_title} %></a> — <a href="<%= $entry->{link} %>"><%= $entry->{title} %></a></h3>
       <div class="content"><%= $entry->{excerpt} %></div>
-      <audio controls>
+      <audio controls preload="none">
         <source src="<%= $entry->{element}->findnodes('enclosure/@url') %>" type="<%= $entry->{element}->findnodes('enclosure/@type') %>">
         <p><a href="<%= $entry->{element}->findnodes('enclosure/@url') %>">Audio</a></p>
       </audio>
