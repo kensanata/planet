@@ -9,11 +9,11 @@
 </head>
 <body>
 <outline title="Charles Stross" xmlUrl="http://www.antipope.org/charlie/blog-static/atom.xml"/>
-<outline title="Derik Badman’s Journal" xmlUrl="https://journal.derikbadman.com/feed"/>
+<outline title="Derik Badman" xmlUrl="https://journal.derikbadman.com/feed"/>
 <outline title="Meissoun" xmlUrl="https://meissoun.blogspot.com/feeds/posts/default"/>
 <outline title="The Oatmeal" xmlUrl="http://feeds.feedburner.com/oatmealfeed"/>
 <outline title="Questionable Content" xmlUrl="https://www.questionablecontent.net/QCRSS.xml"/>
-<outline title="Kattaschas Blog" xmlUrl="https://kattascha.de/feed/"/>
+<outline title="Kattascha" xmlUrl="https://kattascha.de/feed/"/>
 <outline title="Pluralistic" xmlUrl="https://pluralistic.net/feed/"/>
 <outline title="Sajith" xmlUrl="http://nonzen.in/atom.xml"/>
 <outline title="Kiwi Hellenist" xmlUrl="https://kiwihellenist.blogspot.com/feeds/posts/default"/>
@@ -21,5 +21,7 @@
 <outline title="All Dead Generations" xmlUrl="https://alldeadgenerations.blogspot.com/feeds/posts/default"/>
 <outline title="Grognardia" xmlUrl="https://grognardia.blogspot.com/feeds/posts/default"/>
 <outline title="The Prairie Ecologist" xmlUrl="https://prairieecologist.com/feed/"/>
+<outline title="Greta Goetz" xmlUrl="http://gretzuni.com/atom/"/>
+<outline title="danah boyd" xmlUrl="http://www.zephoria.org/thoughts/feed"/>
 </body>
 </opml>
