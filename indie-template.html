@@ -1,3 +1,4 @@
+% use List::Util qw(min);
 % my ($globals, $feeds, $entries) = @_;
 <!DOCTYPE html>
 <html>
@@ -63,7 +64,7 @@
       <h3><a href="<%= $entry->{blog_link} %>"><%= $entry->{blog_title} %></a> — <a href="<%= $entry->{link} %>"><%= $entry->{title} %></a></h3>
       <div class="content"><%= $entry->{excerpt} %></div>
 % if ($entry->{categories}) {
-      <div class="categories"><p>Categories:<ul class="categories"><%= join '', map { "<li>$_</li>" } (@{$entry->{categories}}); %></ul></div>
+      <div class="categories"><p>Categories:<ul class="categories"><%= join '', map { "<li>$_</li>" } @{$entry->{categories}}[0..min(9, scalar @{$entry->{categories}}) - 1]; %><%= @{$entry->{categories}} > 9 ? "<li>and more…</li>" : ""; %></ul></div>
 % }
       <div class="permalink">\
 % if ($entry->{authors}) {
