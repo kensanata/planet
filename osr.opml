@@ -174,7 +174,7 @@
 <outline title="Secret Santicore Blog" xmlUrl="https://santicore.blogspot.com/feeds/posts/default"/>
 <outline title="Sheep and Sorcery" xmlUrl="https://sheepandsorcery.blogspot.com/feeds/posts/default"/>
 <outline title="Ship of Socrates" xmlUrl="http://shipofsocrates.blogspot.com/feeds/posts/default"/>
-<outline title="Smoldering Wizard" xmlUrl="https://osr.smolderingwizard.com/feed.xml"/>
+<outline title="Smoldering Wizard" xmlUrl="https://smolderingwizard.wordpress.com/feed"/>
 <outline title="Sorcery &amp; Skulduggery" xmlUrl="https://sorceryandskulduggery.blogspot.com/feeds/posts/default"/>
 <outline title="Sorcery &amp; Super Science!" xmlUrl="https://josephbrowning.blogspot.com/feeds/posts/default"/>
 <outline title="Spells and Steel" xmlUrl="https://spellsandsteel.blogspot.com/feeds/posts/default"/>
@@ -310,5 +310,6 @@
 <outline title="Save vs Ennui" xmlUrl="https://savevsennui.blogspot.com/feeds/posts/default"/>
 <outline title="Valinard" xmlUrl="https://valinard.writeas.com/feed/"/>
 <outline title="Tales of the Lunar Lands" xmlUrl="tales-of-the-lunar-lands"/>
+<outline title="Save vs. Worm" xmlUrl="https://savevsworm.blogspot.com/feeds/posts/default"/>
 </body>
 </opml>
