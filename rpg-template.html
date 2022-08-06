@@ -28,6 +28,7 @@
     <h2><label for="toggle">Members</label></h2>
     <input type="checkbox" id="toggle">
     <ul id="toggled">
+% for my $feed (@$feeds) {
       <li> \
 %   if ($feed->{message} and $feed->{code} and $feed->{code} ne "200" and $feed->{code} ne "304" and $feed->{link}) {
 <a href="<%= $feed->{url} =%>"><img src="feed.png" alt="(feed)"></a> \
