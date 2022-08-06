@@ -28,12 +28,15 @@
     <input type="checkbox" id="toggle">
     <ul id="toggled">
 % for my $feed (@$feeds) {
-      <li><a href="<%= $feed->{url} =%>"><img src="feed.png" alt="(feed)"></a> \
+      <li>\
 %   if ($feed->{message} and $feed->{code} and $feed->{code} ne "200" and $feed->{code} ne "304" and $feed->{link}) {
+<a href="<%= $feed->{url} =%>"><img src="feed.png" alt="(feed)"></a> \
 <a class="message" title="<%= $feed->{message} =%>" href="<%= $feed->{link} =%>"><%= $feed->{title} =%></a>
 %   } elsif ($feed->{link}) {
+<a href="<%= $feed->{url} =%>" class="alive"><img src="feed.png" alt="(feed)"></a> \
 <a href="<%= $feed->{link} =%>"><%= $feed->{title} =%></a>
 %   } elsif ($feed->{message} and (not $feed->{code} or $feed->{code} ne "200" and $feed->{code} ne "304")) {
+<a href="<%= $feed->{url} =%>"><img src="feed.png" alt="(feed)"></a> \
 <a class="message" title="<%= $feed->{message} =%>"><%= $feed->{title} =%></a>
 %   } else {
 %= $feed->{title}
