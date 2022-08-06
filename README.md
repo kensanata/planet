@@ -27,9 +27,15 @@ consent.
 
 ## If you ever feel like installing it all...
 
-You need to get [Planet Jupiter](https://alexschroeder.ch/cgit/planet-jupiter/about/).
-I linked `jupiter.pl` in `home/alex/bin/jupiter` and this `bin`
+You need to get [Planet
+Jupiter](https://alexschroeder.ch/cgit/planet-jupiter/about/). I
+linked `jupiter.pl` in `home/alex/bin/jupiter` and this `bin`
 directory is in my `PATH`.
+
+In the scripts below you'll note that I also add Perlbrew's `bin` path
+to my `$PATH` variable because I use Perlbrew to install the latest
+Perl. If you can run Jupiter using your system Perl, then there's no
+need for this.
 
 My `crontab` calls two scripts every four hours. The first one updates
 the cache and the second one generates the HTML.
@@ -43,26 +49,50 @@ the cache and the second one generates the HTML.
 
 ```bash
 #!/bin/sh
+PATH=$PATH:/home/alex/perl5/perlbrew/perls/perl-5.32.0/bin
 cd /home/alex/planet
-jupiter update indie.opml osr.opml other.opml
+jupiter --log=warn update indie.opml osr.opml other.opml alex.opml podcast.opml podcast-fr.opml jdr.opml
 ```
 
 `planet-html` does the following:
 
 ```bash
 #!/bin/sh
+PATH=$PATH:/home/alex/perl5/perlbrew/perls/perl-5.32.0/bin
 cd ~/planet
 
-jupiter html indie.html indie.opml \
+jupiter html indie.html indie-template.html indie.xml indie.rss indie.opml \
 && mv indie.html ~/campaignwiki.org/indie/index.html \
+&& cp indie.xml ~/campaignwiki.org/indie/feed.xml \
 && cp indie.opml ~/campaignwiki.org/indie/
 
-jupiter html osr.html osr.opml \
+jupiter html osr.html osr-template.html osr.xml osr.rss osr.opml \
 && mv osr.html ~/campaignwiki.org/osr/index.html \
+&& cp osr.xml ~/campaignwiki.org/osr/feed.xml \
 && cp osr.opml ~/campaignwiki.org/osr/
 
-jupiter html rpg.html indie.opml osr.opml other.opml \
+jupiter html rpg.html rpg-template.html rpg.xml rpg.rss indie.opml osr.opml other.opml \
 && mv rpg.html ~/campaignwiki.org/rpg/index.html \
+&& cp rpg.xml ~/campaignwiki.org/rpg/feed.xml \
 && cp indie.opml osr.opml other.opml ~/campaignwiki.org/rpg/
-```
 
+jupiter html alex.html alex-template.html alex.xml alex.rss alex.opml \
+&& mv alex.html ~/alexschroeder.ch/blogs/index.html \
+&& cp alex.xml ~/alexschroeder.ch/blogs/feed.xml \
+&& cp alex.opml ~/alexschroeder.ch/blogs/
+
+jupiter html podcast.html podcast-template.html podcast.xml podcast.rss podcast.opml \
+&& mv podcast.html ~/campaignwiki.org/podcast/index.html \
+&& cp podcast.xml ~/campaignwiki.org/podcast/feed.xml \
+&& cp podcast.opml ~/campaignwiki.org/podcast/
+
+jupiter html podcast-fr.html podcast-fr-template.html podcast-fr.xml podcast-fr.rss podcast-fr.opml \
+&& mv podcast-fr.html ~/campaignwiki.org/podcast-fr/index.html \
+&& cp podcast-fr.xml ~/campaignwiki.org/podcast-fr/feed.xml \
+&& cp podcast-fr.opml ~/campaignwiki.org/podcast-fr/
+
+jupiter html jdr.html jdr-template.html jdr.xml jdr.rss jdr.opml \
+&& mv jdr.html ~/campaignwiki.org/jdr/index.html \
+&& cp jdr.xml ~/campaignwiki.org/jdr/feed.xml \
+&& cp jdr.opml ~/campaignwiki.org/jdr/
+```
