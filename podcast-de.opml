@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+<head>
+<title>Rollenspiel Podcast Planet</title>
+<owner>Alex Schroeder</owner>
+<ownerEmail>alex@alexschroeder.ch</ownerEmail>
+<ownerId>https://alexschroeder.ch/wiki/Contact</ownerId>
+<docs>http://dev.opml.org/spec2.html</docs>
+</head>
+<body>
+<outline title="Gruftschrecken" xmlUrl="https://anchor.fm/s/5e3ffa80/podcast/rss"/>
+<outline title="Internet Office Hours" xmlUrl="https://campaignwiki.org/files/internet-office-hours.xml"/>
+</body>
+</opml>
