@@ -8,7 +8,7 @@
 <docs>http://dev.opml.org/spec2.html</docs>
 </head>
 <body>
-<outline title="Alex Schroeder" xmlUrl="https://alexschroeder.ch/wiki?action=journal&search=tag%3Arpg+-tag%3Ahalberds_and_helmets_podcast&rsslimit=4"/>
+<outline title="Alex Schroeder" xmlUrl="https://alexschroeder.ch/wiki?action=journal&amp;search=tag%3Arpg+-tag%3Ahalberds_and_helmets_podcast&amp;rsslimit=4"/>
 <outline title="Stargazer’s World" xmlUrl="https://stargazersworld.com/feed/"/>
 <outline title="dragonbones" xmlUrl="https://feeds.feedburner.com/dragonbones"/>
 <outline title="nerdwerds" xmlUrl="https://nerdwerds.blogspot.com/feeds/posts/default"/>
