@@ -8,7 +8,7 @@
 <docs>http://dev.opml.org/spec2.html</docs>
 </head>
 <body>
-<outline title="Radio Rôliste" xmlUrl="http://radioroliste.podcloud.fr/rss"/>
+<outline title="Radio Rôliste" xmlUrl="https://www.radio-roliste.net/?feed=rss2"/>
 <outline title="Voix d’Altaride" xmlUrl="https://www.cendrones.fr/feed/"/>
 <outline title="Trop Long Pas Lu" xmlUrl="https://troplongpaslu.fr/feed/"/>
 <outline title="Le café Nonobstant" xmlUrl="https://nonobstant.cafe/podcast/rss/"/>
