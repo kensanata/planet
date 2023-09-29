@@ -159,7 +159,8 @@
 <outline title="Provinto RPG" xmlUrl="https://provintorpg.blogspot.com/feeds/posts/default"/>
 <outline title="Questing Beast" xmlUrl="https://questingblog.com/feed/"/>
 <outline title="Red Box Vancouver’s Blog" xmlUrl="https://redboxvancouver.wordpress.com/old-school-rpg-stuff/feed/"/>
-<outline title="Red Dice Diaries" xmlUrl="https://reddicediaries.com/feed/"/>
+<outline title="Red Dice Diaries" xmlUrl="http://reddicediaries.bearblog.dev/feed/?type=rss"/>
+<outline title="Red Dice Diaries" xmlUrl="http://reddicediaries.substack.com/feed"/>
 <outline title="Remixes and Revelations" xmlUrl="https://www.remixesandrevelations.com/feeds/posts/default"/>
 <outline title="Rhyming Fool Exits Stage Left" xmlUrl="https://evoroxv.blogspot.com/feeds/posts/default"/>
 <outline title="Richard’s Dystopian Pokeverse" xmlUrl="https://lurkerablog.wordpress.com/feed/"/>
