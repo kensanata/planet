@@ -314,7 +314,7 @@
 <outline title="Traverse Fantasy" xmlUrl="https://traversefantasy.blogspot.com/feeds/posts/default"/>
 <outline title="Vaults of Vaarn" xmlUrl="https://vaultsofvaarn.com/feed/"/>
 <outline title="Evil Tables" xmlUrl="https://eviltables.dev/feed/"/>
-<outline title="Caltrops for Breakfast" xmlUrl="https://caltropsforbreakfast.com/rss/"/>
+<outline title="Caltrops for Breakfast" xmlUrl="https://caltropsforbreakfast.com/rss.xml"/>
 <outline title="The Redcaps" xmlUrl="https://theredcaps.substack.com/feed"/>
 <outline title="Scribblings or Something" xmlUrl="https://jerryboucher.blogspot.com/feeds/posts/default"/>
 <outline title="The Grisly Eye" xmlUrl="https://grislyeye.com/rss.xml"/>
@@ -336,5 +336,6 @@
 <outline title="Satrap of Saturn" xmlUrl="https://satrap-of-saturn.blogspot.com/feeds/posts/default"/>
 <outline title="Imbricated Interests of a Ludic Ghoul" xmlUrl="https://ludicghoul.blogspot.com/feeds/posts/default"/>
 <outline title="Whose Measure God Could Not Take" xmlUrl="https://whosemeasure.blogspot.com/feeds/posts/default"/>
+<outline title="Stuffed Crocodile" xmlUrl="https://gmkeros.wordpress.com/feed/"/>
 </body>
 </opml>
