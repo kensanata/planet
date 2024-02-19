@@ -48,7 +48,7 @@
 <outline title="Campaigns Playable" xmlUrl="https://campaigns-playable.blogspot.com/feeds/posts/default"/>
 <outline title="Cavegirl’s Game Stuff" xmlUrl="https://cavegirlgames.blogspot.com/feeds/posts/default"/>
 <outline title="Caverns Measureless to Man" xmlUrl="https://cavernsmeasureless.wordpress.com/feed/"/>
-<outline title="ChicagoWiz&#39;s Games" xmlUrl="https://chgowiz.substack.com/feed"/>
+<outline title="ChicagoWiz&#39;s Games" xmlUrl="https://chgowiz-games.etinerra.com/wp/feed/"/>
 <outline title="Chronicled Scribblings of the Itinerant Overlord" xmlUrl="https://csio.blogspot.com/feeds/posts/default"/>
 <outline title="Coiled Sheets of Lead" xmlUrl="https://zrzavy.blogspot.com/feeds/posts/default"/>
 <outline title="Coins and Scrolls" xmlUrl="https://coinsandscrolls.blogspot.com/feeds/posts/default"/>
@@ -340,5 +340,7 @@
 <outline title="The Gibbering Blog" xmlUrl="https://thegibberingblog.blogspot.com/feeds/posts/default"/>
 <outline title="Death by Dice" xmlUrl="https://deathbydice.bearblog.dev/feed/?type=rss"/>
 <outline title="Traipse" xmlUrl="https://traipse.hexarcana.com/feeds/posts/default"/>
+<outline title="Rambling Cleric" xmlUrl="https://ramblingcleric.com/feed/"/>
+<outline title="Dojo Darelir, the School of Xenograg the Sorcerer" xmlUrl="https://www.xenograg.com/feed"/>
 </body>
 </opml>
