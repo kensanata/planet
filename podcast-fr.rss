@@ -23,6 +23,7 @@
       <description>
 %= $entry->{content}
       </description>
+      <%= join("", @{$entry->{element}->getElementsByTagName("enclosure")}) %>
     </item>
 % }
   </channel>
