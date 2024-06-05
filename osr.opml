@@ -327,7 +327,7 @@
 <outline title="The Unholy Lands" xmlUrl="https://headlessdragon.blogspot.com/feeds/posts/default"/>
 <outline title="Order Of The Crimson Death" xmlUrl="https://orderofthecrimsondeath.blogspot.com/feeds/posts/default"/>
 <outline title="macchiato master" xmlUrl="https://macchiatomaster.blot.im/feed.rss"/>
-<outline title="Vladar's Blog" xmlUrl="https://vladar.bearblog.dev/feed/?type=rss"/>
+<outline title="Vladar's Blog" xmlUrl="https://vladar.bearblog.dev/feed/"/>
 <outline title="The Totality of Ygg" xmlUrl="https://thetotalityofygg.blogspot.com/feeds/posts/default"/>
 <outline title="Explore: Beneath &amp; Beyond" xmlUrl="https://explorebeneathandbeyond.blogspot.com/feeds/posts/default"/>
 <outline title="Playful Void" xmlUrl="https://playfulvoid.game.blog/feed/"/>
@@ -338,7 +338,7 @@
 <outline title="Whose Measure God Could Not Take" xmlUrl="https://whosemeasure.blogspot.com/feeds/posts/default"/>
 <outline title="Stuffed Crocodile" xmlUrl="https://gmkeros.wordpress.com/feed/"/>
 <outline title="The Gibbering Blog" xmlUrl="https://thegibberingblog.blogspot.com/feeds/posts/default"/>
-<outline title="Death by Dice" xmlUrl="https://deathbydice.bearblog.dev/feed/?type=rss"/>
+<outline title="Death by Dice" xmlUrl="https://deathbydice.bearblog.dev/feed/"/>
 <outline title="Traipse" xmlUrl="https://traipse.hexarcana.com/feeds/posts/default"/>
 <outline title="Rambling Cleric" xmlUrl="https://ramblingcleric.com/feed/"/>
 <outline title="Dojo Darelir, the School of Xenograg the Sorcerer" xmlUrl="https://www.xenograg.com/feed"/>
@@ -349,5 +349,7 @@
 <outline title="Writings" xmlUrl="http://rancourt.substack.com/feed"/>
 <outline title="Lone Knight" xmlUrl="https://loneknight.dreamwidth.org/data/rss"/>
 <outline title="Nerd-O-Mancer of Dork" xmlUrl="https://nerdomancerofdork.wordpress.com/feed/"/>
+<outline title="Pathos" xmlUrl="https://pathos1e.blogspot.com/feeds/posts/default"/>
+<outline title="Idraluna Archives" xmlUrl="https://idraluna-archives.bearblog.dev/feed/"/>
 </body>
 </opml>
