@@ -59,7 +59,6 @@
 <outline title="Daimon Games" xmlUrl="https://daimon-games.blogspot.com/feeds/posts/default"/>
 <outline title="Damn Elf Press" xmlUrl="https://damnelfpress.wordpress.com/feed/"/>
 <outline title="Darkworm Colt" xmlUrl="https://darkwormcolt.wordpress.com/feed/"/>
-<outline title="Das Boots of Haste" xmlUrl="https://dasbootsofhaste.com/feed/"/>
 <outline title="Dead Cyclops" xmlUrl="https://deadcyclops.blogspot.com/feeds/posts/default"/>
 <outline title="Dead Tree, No Shelter" xmlUrl="https://deadtreenoshelter.blogspot.com/feeds/posts/default"/>
 <outline title="Death &amp; Dismemberment" xmlUrl="https://deathanddismemberment.blogspot.com/feeds/posts/default"/>
@@ -168,8 +167,7 @@
 <outline title="Roles, Rules, and Rolls" xmlUrl="https://rolesrules.blogspot.com/feeds/posts/default"/>
 <outline title="ropeblogi" xmlUrl="https://ropeblogi.wordpress.com/category/in-english/feed"/>
 <outline title="Rose &amp; Kingfisher" xmlUrl="https://roseandkingfisher.blogspot.com/feeds/posts/default"/>
-<outline title="RPG Works and Sundry" xmlUrl="https://gdorn.circuitlocution.com/rpgblog/feeds/all.atom.xml"/>
-<outline title="Rumors of War" xmlUrl="https://rumorsofwarcomic.com/feed/"/>
+<outline title="RPG Works and Sundry" xmlUrl="https://gdorn.circuitlocution.com/rpgblog/rss.xml"/>
 <outline title="Save vs. Total Party Kill" xmlUrl="http://save.vs.totalpartykill.ca/rss.xml"/>
 <outline title="Secret Santicore Blog" xmlUrl="https://santicore.blogspot.com/feeds/posts/default"/>
 <outline title="Sheep and Sorcery" xmlUrl="https://sheepandsorcery.blogspot.com/feeds/posts/default"/>
@@ -190,7 +188,7 @@
 <outline title="The Acorn Afloat" xmlUrl="https://acornafloat.blogspot.com/feeds/posts/default"/>
 <outline title="The Bogeyman’s Cave" xmlUrl="https://bogeymanscave.blogspot.com/feeds/posts/default"/>
 <outline title="The Bottomless Sarcophagus" xmlUrl="https://bottomlesssarcophagus.blogspot.com/feeds/posts/default"/>
-<outline title="The ChaosGrenade" xmlUrl="https://chaosgrenade.com/tag/osr/feed/"/>
+<outline title="The ChaosGrenade" xmlUrl="https://chaosgrenade.com/feed.rss"/>
 <outline title="The Crier of Kemen" xmlUrl="https://crierofkemen.blogspot.com/feeds/posts/default"/>
 <outline title="The Dice Blade" xmlUrl="https://diceblade.blogspot.com/feeds/posts/default"/>
 <outline title="The Disoriented Ranger" xmlUrl="https://the-disoriented-ranger.blogspot.com/feeds/posts/default"/>
@@ -273,7 +271,6 @@
 <outline title="Greyhawk Musings" xmlUrl="https://davidleonard-greyhawkmusings.blogspot.com/feeds/posts/default"/>
 <outline title="The Man With A Hammer" xmlUrl="https://themanwithahammer.blogspot.com/feeds/posts/default"/>
 <outline title="Brinehouse" xmlUrl="https://brinehouse.blogspot.com/feeds/posts/default"/>
-<outline title="OS Armory" xmlUrl="https://osarmory.com/osarmoryfeed/"/>
 <outline title="Secrets of the Shadowend" xmlUrl="https://secretsoftheshadowend.blogspot.com/feeds/posts/default"/>
 <outline title="The Known Place" xmlUrl="http://mjulius.blogspot.com/feeds/posts/default"/>
 <outline title="Simulacrum: Exploring OSR Design" xmlUrl="https://osrsimulacrum.blogspot.com/feeds/posts/default"/>
@@ -327,7 +324,7 @@
 <outline title="The Unholy Lands" xmlUrl="https://headlessdragon.blogspot.com/feeds/posts/default"/>
 <outline title="Order Of The Crimson Death" xmlUrl="https://orderofthecrimsondeath.blogspot.com/feeds/posts/default"/>
 <outline title="macchiato master" xmlUrl="https://macchiatomaster.blot.im/feed.rss"/>
-<outline title="Vladar's Blog" xmlUrl="https://vladar.bearblog.dev/feed/"/>
+<outline title="Vladar's Blog" xmlUrl="https://vladar.bearblog.dev/feed/?type=rss"/>
 <outline title="The Totality of Ygg" xmlUrl="https://thetotalityofygg.blogspot.com/feeds/posts/default"/>
 <outline title="Explore: Beneath &amp; Beyond" xmlUrl="https://explorebeneathandbeyond.blogspot.com/feeds/posts/default"/>
 <outline title="Playful Void" xmlUrl="https://playfulvoid.game.blog/feed/"/>
@@ -338,7 +335,7 @@
 <outline title="Whose Measure God Could Not Take" xmlUrl="https://whosemeasure.blogspot.com/feeds/posts/default"/>
 <outline title="Stuffed Crocodile" xmlUrl="https://gmkeros.wordpress.com/feed/"/>
 <outline title="The Gibbering Blog" xmlUrl="https://thegibberingblog.blogspot.com/feeds/posts/default"/>
-<outline title="Death by Dice" xmlUrl="https://deathbydice.bearblog.dev/feed/"/>
+<outline title="Death by Dice" xmlUrl="https://deathbydice.bearblog.dev/feed/?type=rss"/>
 <outline title="Traipse" xmlUrl="https://traipse.hexarcana.com/feeds/posts/default"/>
 <outline title="Rambling Cleric" xmlUrl="https://ramblingcleric.com/feed/"/>
 <outline title="Dojo Darelir, the School of Xenograg the Sorcerer" xmlUrl="https://www.xenograg.com/feed"/>
@@ -350,6 +347,6 @@
 <outline title="Lone Knight" xmlUrl="https://loneknight.dreamwidth.org/data/rss"/>
 <outline title="Nerd-O-Mancer of Dork" xmlUrl="https://nerdomancerofdork.wordpress.com/feed/"/>
 <outline title="Pathos" xmlUrl="https://pathos1e.blogspot.com/feeds/posts/default"/>
-<outline title="Idraluna Archives" xmlUrl="https://idraluna-archives.bearblog.dev/feed/"/>
+<outline title="Idraluna Archives" xmlUrl="https://idraluna-archives.bearblog.dev/feed/?type=rss"/>
 </body>
 </opml>
