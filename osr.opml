@@ -350,9 +350,12 @@
 <outline title="Idraluna Archives" xmlUrl="https://idraluna-archives.bearblog.dev/feed/?type=rss"/>
 <outline title="Revivify Games" xmlUrl="https://revivifygames.com/blog?format=rss"/>
 <outline title="Death in Dark Corners" xmlUrl="https://deathindarkcorners.blogspot.com/feeds/posts/default"/>
-<outline title="Among Cats And Books" xmlUrl="elmc.at/feed/"/>
+<outline title="Among Cats And Books" xmlUrl="https://elmc.at/feed/"/>
 <outline title="Dunromin University Press" xmlUrl="https://www.dunrominuniversitypress.com/blog/rss/"/>
-<outline title="Widdershins Wandering" xmlUrl="https://https://widdershinswanderings.bearblog.dev/feed/?type=rss.blogspot.com/feeds/posts/default"/>
+<outline title="Widdershins Wandering" xmlUrl="https://widdershinswanderings.bearblog.dev/feed/?type=rss"/>
 <outline title="Being An Asshole to a Goblin" xmlUrl="https://baatag.blogspot.com/feeds/posts/default"/>
+<outline title="Tales from the Border Baronies" xmlUrl="https://borderbaronies.bearblog.dev/feed/?type=rss"/>
+<outline title="Carjacked Seraphim" xmlUrl="https://carjackedseraphim.blogspot.com/feeds/posts/default"/>
+<outline title="Arden Vul session recaps" xmlUrl="http://ardenvulsessions.substack.com/feed"/>
 </body>
 </opml>
