@@ -46,6 +46,8 @@
 <outline title="Paolo Amoroso" xmlUrl="https://journal.paoloamoroso.com/feed/"/>
 <outline title="Browser Linkbudz" xmlUrl="https://browser.communitywiki.org/feed.rss"/>
 <outline text="Molly White" title="Molly White">
+  <outline title="Molly White's activity feed"
+           type="rss" xmlUrl="https://www.mollywhite.net/feed/feed.xml" htmlUrl="https://www.mollywhite.net/"/>
   <outline text="Molly White: Blogs" title="Molly White: Blogs">
     <outline text="A Very Good Blog" title="A Very Good Blog"
              type="rss" xmlUrl="https://gkeenan.co/avgb/feed.xml" htmlUrl="https://gkeenan.co/avgb" />
