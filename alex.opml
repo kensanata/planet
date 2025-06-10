@@ -8,6 +8,8 @@
     <docs>http://dev.opml.org/spec2.html</docs>
   </head>
   <body>
+    <outline title="Dhole Moments" xmlUrl="https://soatok.blog/feed/"/>
+    <outline title="DNIP" xmlUrl="https://dnip.ch/feed/"/>
     <outline title="PresGas" xmlUrl="https://words.presgas.name/feed.xml"/>
     <outline title="Joan Westenberg" xmlUrl="https://www.joanwestenberg.com/feed/"/>
     <outline title="The Index" xmlUrl="https://www.theindex.media/rss/"/>
