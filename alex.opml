@@ -122,7 +122,6 @@
         <outline text="Juha-Matti Santala" title="Juha-Matti Santala" type="rss" xmlUrl="https://hamatti.org/feed/feed.xml" htmlUrl="https://hamatti.org/blog/" />
         <outline text="Justin Pot" title="Justin Pot" type="rss" xmlUrl="https://justinpot.com/feed/" htmlUrl="https://justinpot.com/posts/" />
         <outline text="jwz" title="jwz" type="rss" xmlUrl="https://cdn.jwz.org/blog/feed/" htmlUrl="https://www.jwz.org/blog/" />
-        <outline text="Kev Quirk" title="Kev Quirk" type="rss" xmlUrl="https://kevquirk.com/feed" htmlUrl="https://kevquirk.com/" />
         <outline text="Law Dork" title="Law Dork" type="rss" xmlUrl="https://www.lawdork.com/feed" htmlUrl="https://www.lawdork.com" />
         <outline text="Live Laugh Blog" title="Live Laugh Blog" type="rss" xmlUrl="https://livelaugh.blog/rss.xml" htmlUrl="https://livelaugh.blog/" />
         <outline text="LOL (lots of links)" title="LOL (lots of links)" type="rss" xmlUrl="https://lotsoflinks.substack.com/feed" htmlUrl="https://lotsoflinks.substack.com/" />
@@ -172,7 +171,6 @@
       <outline text="Molly White: News" title="Molly White: News">
         <outline text="404 Media" title="404 Media" type="rss" xmlUrl="https://www.404media.co/rss/" htmlUrl="https://www.404media.co/" />
         <outline text="Aftermath" title="Aftermath" type="rss" xmlUrl="https://aftermath.site/rss" htmlUrl="https://aftermath.site/" />
-        <outline text="BleepingComputer" title="BleepingComputer" type="rss" xmlUrl="https://www.bleepingcomputer.com/feed/" htmlUrl="http://www.bleepingcomputer.com/forums/f/2/news/" />
         <outline text="Defector" title="Defector" type="rss" xmlUrl="https://defector.com/feed" htmlUrl="https://defector.com/" />
         <outline text="Erin In The Morning" title="Erin In The Morning" type="rss" xmlUrl="https://www.erininthemorning.com/feed" htmlUrl="https://www.erininthemorning.com/" />
         <outline text="Fix The News" title="Fix The News" type="rss" xmlUrl="https://fixthenews.com/rss/" htmlUrl="https://fixthenews.com/" />
