@@ -8,6 +8,7 @@
     <docs>http://dev.opml.org/spec2.html</docs>
   </head>
   <body>
+    <outline title="Smashing Frames" xmlUrl="https://tante.cc/feed/"/>
     <outline title="Dhole Moments" xmlUrl="https://soatok.blog/feed/"/>
     <outline title="DNIP" xmlUrl="https://dnip.ch/feed/"/>
     <outline title="PresGas" xmlUrl="https://words.presgas.name/feed.xml"/>
