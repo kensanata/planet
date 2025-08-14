@@ -62,13 +62,13 @@
 <outline title="Mark writes" xmlUrl="https://mdhughes.tech/category/rpg/feed/"/>
 <outline title="Refereeing and Reflection" xmlUrl="https://refereeingandreflection.wordpress.com/feed/"/>
 <outline title="Satrap of Saturn" xmlUrl="https://satrap-of-saturn.blogspot.com/feeds/posts/default/-/RPG"/>
-<outline title="Weird Wonder" xmlUrl="http://weirdwonder.bearblog.dev/feed/"/>
+<outline title="Weird Wonder" xmlUrl="http://weirdwonder.bearblog.dev/feed/?type=rss"/>
 <outline title="Augury Ignored" xmlUrl="https://auguryignored.wordpress.com/feed/"/>
 <outline title="Unpossible Journeys" xmlUrl="https://unpossiblejourneys.com/feed.xml"/>
 <outline title="Setting First " xmlUrl="https://settingfirst.com/feed.xml"/>
 <outline title="Dozens and Dragons" xmlUrl="https://dozensanddragons.neocities.org/rss.xml"/>
 <outline title="The Parchment Paladin" xmlUrl="https://theparchmentpaladin.com/feed/feed.xml"/>
-<outline title="VDonnut Valley" xmlUrl="https://vdonnutvalley.bearblog.dev/feed/"/>
+<outline title="VDonnut Valley" xmlUrl="https://vdonnutvalley.bearblog.dev/feed/?type=rss"/>
 <outline title="Sepulchral Slime" xmlUrl="https://sepulchralslime.blogspot.com/feeds/posts/default"/>
 <outline title="Moonglum Games" xmlUrl="https://moonglumgames.blogspot.com/feeds/posts/default"/>
 <outline title="Messages From The Far Havens" xmlUrl="https://farhavens.blogspot.com/feeds/posts/default"/>
@@ -77,6 +77,6 @@
 <outline title="World of Pyre" xmlUrl="https://worldofpyre.blogspot.com/feeds/posts/default"/>
 <outline title="My Flippin' Pancake Day" xmlUrl="https://myflippingpancakeday.blogspot.com/feeds/posts/default"/>
 <outline title="Domain of Many Things" xmlUrl="https://www.domainofmanythings.com/blog?format=rss"/>
-<outline title="Polyhedral Dreams" xmlUrl="https://polyhedraldreams.bearblog.dev/feed/"/>
+<outline title="Polyhedral Dreams" xmlUrl="https://polyhedraldreams.bearblog.dev/feed/?type=rss"/>
 </body>
 </opml>
